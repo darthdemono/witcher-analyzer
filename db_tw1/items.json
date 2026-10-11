@@ -1,0 +1,5502 @@
+{
+ "alc_medium_t": {
+  "base": 10,
+  "name": "Wine",
+  "quest": 0
+ },
+ "alc_mild_t": {
+  "base": 10,
+  "name": "Beer",
+  "quest": 0
+ },
+ "alc_strong_t": {
+  "base": 10,
+  "name": "Booze",
+  "quest": 0
+ },
+ "alko": {
+  "base": 11,
+  "name": "Alcohol",
+  "quest": 0
+ },
+ "booze_mild": {
+  "base": 11,
+  "name": "Booze mild",
+  "quest": null
+ },
+ "bread": {
+  "base": 33,
+  "name": "Bread",
+  "quest": null
+ },
+ "dice_adv_001": {
+  "base": 49,
+  "name": "Advanced Dice #1",
+  "quest": 0
+ },
+ "dice_adv_002": {
+  "base": 49,
+  "name": "Advanced Dice #2",
+  "quest": 0
+ },
+ "dice_adv_003": {
+  "base": 49,
+  "name": "Advanced Dice #3",
+  "quest": 0
+ },
+ "dice_adv_004": {
+  "base": 49,
+  "name": "Advanced Dice #4",
+  "quest": 0
+ },
+ "dice_adv_005": {
+  "base": 49,
+  "name": "Advanced Dice #5",
+  "quest": 0
+ },
+ "dice_adv_006": {
+  "base": 49,
+  "name": "Advanced Dice #6",
+  "quest": 0
+ },
+ "dice_adv_007": {
+  "base": 49,
+  "name": "Advanced Dice #7",
+  "quest": 0
+ },
+ "dice_adv_008": {
+  "base": 49,
+  "name": "Advanced Dice #8",
+  "quest": 0
+ },
+ "dice_adv_009": {
+  "base": 49,
+  "name": "Advanced Dice #9",
+  "quest": 0
+ },
+ "dice_adv_010": {
+  "base": 49,
+  "name": "Advanced Dice #10",
+  "quest": 0
+ },
+ "dice_bas_001": {
+  "base": 49,
+  "name": "Basic Dice #1",
+  "quest": 0
+ },
+ "dice_bas_002": {
+  "base": 49,
+  "name": "Basic Dice #2",
+  "quest": 0
+ },
+ "dice_bas_003": {
+  "base": 49,
+  "name": "Basic Dice #3",
+  "quest": 0
+ },
+ "dice_bas_004": {
+  "base": 49,
+  "name": "Basic Dice #4",
+  "quest": 0
+ },
+ "dice_bas_005": {
+  "base": 49,
+  "name": "Basic Dice #5",
+  "quest": 0
+ },
+ "dice_bas_006": {
+  "base": 49,
+  "name": "Basic Dice #6",
+  "quest": 0
+ },
+ "dice_bas_007": {
+  "base": 49,
+  "name": "Basic Dice #7",
+  "quest": 0
+ },
+ "dice_bas_008": {
+  "base": 49,
+  "name": "Basic Dice #8",
+  "quest": 0
+ },
+ "dice_bas_009": {
+  "base": 49,
+  "name": "Basic Dice #9",
+  "quest": 0
+ },
+ "dice_bas_010": {
+  "base": 49,
+  "name": "Basic Dice #10",
+  "quest": 0
+ },
+ "dice_rar_001": {
+  "base": 49,
+  "name": "Rare Dice #1",
+  "quest": 0
+ },
+ "dice_rar_002": {
+  "base": 49,
+  "name": "Rare Dice #2",
+  "quest": 0
+ },
+ "dice_rar_003": {
+  "base": 49,
+  "name": "Rare Dice #3",
+  "quest": 0
+ },
+ "dice_rar_004": {
+  "base": 49,
+  "name": "Rare Dice #4",
+  "quest": 0
+ },
+ "dice_rar_005": {
+  "base": 49,
+  "name": "Rare Dice #5",
+  "quest": 0
+ },
+ "dice_rar_006": {
+  "base": 49,
+  "name": "Rare Dice #6",
+  "quest": 0
+ },
+ "dice_rar_007": {
+  "base": 49,
+  "name": "Rare Dice #7",
+  "quest": 0
+ },
+ "dice_rar_008": {
+  "base": 49,
+  "name": "Rare Dice #8",
+  "quest": 0
+ },
+ "dice_rar_009": {
+  "base": 49,
+  "name": "Rare Dice #9",
+  "quest": 0
+ },
+ "dice_rar_010": {
+  "base": 49,
+  "name": "Rare Dice #10",
+  "quest": 0
+ },
+ "dice_unc_001": {
+  "base": 49,
+  "name": "Uncommon Dice #1",
+  "quest": 0
+ },
+ "dice_unc_002": {
+  "base": 49,
+  "name": "Uncommon Dice #2",
+  "quest": 0
+ },
+ "dice_unc_003": {
+  "base": 49,
+  "name": "Uncommon Dice #3",
+  "quest": 0
+ },
+ "dice_unc_004": {
+  "base": 49,
+  "name": "Uncommon Dice #4",
+  "quest": 0
+ },
+ "dice_unc_005": {
+  "base": 49,
+  "name": "Uncommon Dice #5",
+  "quest": 0
+ },
+ "dice_unc_006": {
+  "base": 49,
+  "name": "Uncommon Dice #6",
+  "quest": 0
+ },
+ "dice_unc_007": {
+  "base": 49,
+  "name": "Uncommon Dice #7",
+  "quest": 0
+ },
+ "dice_unc_008": {
+  "base": 49,
+  "name": "Uncommon Dice #8",
+  "quest": 0
+ },
+ "dice_unc_009": {
+  "base": 49,
+  "name": "Uncommon Dice #9",
+  "quest": 0
+ },
+ "dice_unc_010": {
+  "base": 49,
+  "name": "Uncommon Dice #10",
+  "quest": 0
+ },
+ "dice_unq_001": {
+  "base": 49,
+  "name": "Unique Dice #1",
+  "quest": 0
+ },
+ "dice_unq_002": {
+  "base": 49,
+  "name": "Unique Dice #2",
+  "quest": 0
+ },
+ "dice_unq_003": {
+  "base": 49,
+  "name": "Unique Dice #3",
+  "quest": 0
+ },
+ "dice_unq_004": {
+  "base": 49,
+  "name": "Unique Dice #4",
+  "quest": 0
+ },
+ "dice_unq_005": {
+  "base": 49,
+  "name": "Unique Dice #5",
+  "quest": 0
+ },
+ "dice_unq_006": {
+  "base": 49,
+  "name": "Unique Dice #6",
+  "quest": 0
+ },
+ "dice_unq_007": {
+  "base": 49,
+  "name": "Unique Dice #7",
+  "quest": 0
+ },
+ "dice_unq_008": {
+  "base": 49,
+  "name": "Unique Dice #8",
+  "quest": 0
+ },
+ "dice_unq_009": {
+  "base": 49,
+  "name": "Unique Dice #9",
+  "quest": 0
+ },
+ "dice_unq_010": {
+  "base": 49,
+  "name": "Unique Dice #10",
+  "quest": 0
+ },
+ "eternal": {
+  "base": 20,
+  "name": "Eternalflame",
+  "quest": null
+ },
+ "ff_fists": {
+  "base": 15,
+  "name": "",
+  "quest": 0
+ },
+ "it_amm_001": {
+  "base": 54,
+  "name": "Crossbow bolt",
+  "quest": 0
+ },
+ "it_amm_002": {
+  "base": 16,
+  "name": "Arrow",
+  "quest": 0
+ },
+ "it_amm_003": {
+  "base": 55,
+  "name": "Echinops spike",
+  "quest": 0
+ },
+ "it_amm_004": {
+  "base": 16,
+  "name": "Ammunition (Spell)",
+  "quest": 0
+ },
+ "it_amm_005": {
+  "base": 16,
+  "name": "Ammunition (Spell)",
+  "quest": 0
+ },
+ "it_amm_006": {
+  "base": 16,
+  "name": "Ammunition (Spell)",
+  "quest": 0
+ },
+ "it_amm_007": {
+  "base": 16,
+  "name": "Ammunition (Spell)",
+  "quest": 0
+ },
+ "it_amm_008": {
+  "base": 16,
+  "name": "Ammunition (Spell)",
+  "quest": 0
+ },
+ "it_amm_009": {
+  "base": 16,
+  "name": "Echinops spike",
+  "quest": 0
+ },
+ "it_amm_010": {
+  "base": 16,
+  "name": "Black arrow with steel head",
+  "quest": 0
+ },
+ "it_bera_medall": {
+  "base": 40,
+  "name": "Berengar's Medallion",
+  "quest": 1
+ },
+ "it_bomb": {
+  "base": 47,
+  "name": "Vizimean Champion",
+  "quest": 0
+ },
+ "it_bomb_001": {
+  "base": 47,
+  "name": "King And Queen",
+  "quest": 0
+ },
+ "it_bomb_002": {
+  "base": 47,
+  "name": "Devil's Puffball",
+  "quest": 0
+ },
+ "it_bomb_003": {
+  "base": 47,
+  "name": "Zerrikan Sun",
+  "quest": 0
+ },
+ "it_bomb_004": {
+  "base": 47,
+  "name": "Samum",
+  "quest": 0
+ },
+ "it_bomb_005": {
+  "base": 47,
+  "name": "Dragon's Dream",
+  "quest": 0
+ },
+ "it_bomb_006": {
+  "base": 47,
+  "name": "King and Queen",
+  "quest": 0
+ },
+ "it_bomb_007": {
+  "base": 47,
+  "name": "King and Queen",
+  "quest": 0
+ },
+ "it_bow_001": {
+  "base": 7,
+  "name": "Temerian short bow",
+  "quest": 0
+ },
+ "it_bow_002": {
+  "base": 7,
+  "name": "Temerian composite short bow",
+  "quest": 0
+ },
+ "it_bow_003": {
+  "base": 7,
+  "name": "Elven short bow",
+  "quest": 0
+ },
+ "it_bow_004": {
+  "base": 56,
+  "name": "Echinops spike",
+  "quest": 0
+ },
+ "it_bow_005": {
+  "base": 7,
+  "name": "Kikimore warrior weapon",
+  "quest": 0
+ },
+ "it_bow_006": {
+  "base": 7,
+  "name": "Temerian composite bow",
+  "quest": 0
+ },
+ "it_bow_007": {
+  "base": 7,
+  "name": "Elven longbow",
+  "quest": 0
+ },
+ "it_bow_008": {
+  "base": 7,
+  "name": "Master elven longbow",
+  "quest": 0
+ },
+ "it_crossb_001": {
+  "base": 6,
+  "name": "Temerian crossbow",
+  "quest": 0
+ },
+ "it_crossb_002": {
+  "base": 6,
+  "name": "Order crossbow",
+  "quest": 0
+ },
+ "it_crossb_003": {
+  "base": 6,
+  "name": "Dwarven crossbow form Mahakam",
+  "quest": 0
+ },
+ "it_crossb_004": {
+  "base": 6,
+  "name": "Excellent dwarven crossbow",
+  "quest": 0
+ },
+ "it_crossb_005": {
+  "base": 6,
+  "name": "Two-stringed crossbow from Mahakam",
+  "quest": 0
+ },
+ "it_dgr_001": {
+  "base": 17,
+  "name": "Temerian Iron Dagger",
+  "quest": 0
+ },
+ "it_dgr_002": {
+  "base": 17,
+  "name": "Temerian Steel Dagger",
+  "quest": 0
+ },
+ "it_dgr_003": {
+  "base": 17,
+  "name": "Assassin Dagger",
+  "quest": 0
+ },
+ "it_dgr_004": {
+  "base": 17,
+  "name": "Mahakam Dagger",
+  "quest": 0
+ },
+ "it_dgr_005": {
+  "base": 17,
+  "name": "Deithwen Dagger",
+  "quest": 0
+ },
+ "it_dgr_006": {
+  "base": 17,
+  "name": "Rune Dagger From Mahakam",
+  "quest": 0
+ },
+ "it_drink_001": {
+  "base": 48,
+  "name": "Vizimean Champion",
+  "quest": 0
+ },
+ "it_drink_002": {
+  "base": 48,
+  "name": "Kaedwenian Stout",
+  "quest": 0
+ },
+ "it_drink_003": {
+  "base": 48,
+  "name": "Rivian Kriek",
+  "quest": 0
+ },
+ "it_drink_004": {
+  "base": 48,
+  "name": "Redanian Lager",
+  "quest": 0
+ },
+ "it_drink_005": {
+  "base": 48,
+  "name": "Cintrian Faro",
+  "quest": 0
+ },
+ "it_drink_006": {
+  "base": 48,
+  "name": "Toussaint Red",
+  "quest": 0
+ },
+ "it_drink_007": {
+  "base": 48,
+  "name": "Beauclair White",
+  "quest": 0
+ },
+ "it_drink_008": {
+  "base": 48,
+  "name": "Mettina Rose",
+  "quest": 0
+ },
+ "it_drink_009": {
+  "base": 48,
+  "name": "Mahakam Mead",
+  "quest": 0
+ },
+ "it_drink_010": {
+  "base": 48,
+  "name": "Sodden Mead",
+  "quest": 0
+ },
+ "it_drink_020": {
+  "base": 48,
+  "name": "Local Pepperovka",
+  "quest": 0
+ },
+ "it_drink_021": {
+  "base": 48,
+  "name": "Nilfgaardian Citrinovka",
+  "quest": 0
+ },
+ "it_drink_022": {
+  "base": 48,
+  "name": "Temerian Rye Vodka",
+  "quest": 0
+ },
+ "it_drink_023": {
+  "base": 48,
+  "name": "Soldier's Hooch",
+  "quest": 0
+ },
+ "it_drink_024": {
+  "base": 48,
+  "name": "Redanian Herbal Vodka",
+  "quest": 0
+ },
+ "it_drink_030": {
+  "base": 48,
+  "name": "Dwarven Spirit",
+  "quest": 0
+ },
+ "it_drink_031": {
+  "base": 48,
+  "name": "Cherry Cordial On Spirit",
+  "quest": 0
+ },
+ "it_drink_032": {
+  "base": 48,
+  "name": "Plum Cordial",
+  "quest": 0
+ },
+ "it_drink_033": {
+  "base": 48,
+  "name": "Temerian Spirit",
+  "quest": 0
+ },
+ "it_drink_034": {
+  "base": 48,
+  "name": "Zerrikan Spirit",
+  "quest": 0
+ },
+ "it_drink_040": {
+  "base": 48,
+  "name": "Wyvern Blood Spirit",
+  "quest": 0
+ },
+ "it_drink_041": {
+  "base": 48,
+  "name": "Wormwood Spirit",
+  "quest": 0
+ },
+ "it_drink_042": {
+  "base": 48,
+  "name": "Mandrake Cordial",
+  "quest": 0
+ },
+ "it_drink_050": {
+  "base": 48,
+  "name": "Alcahest",
+  "quest": 0
+ },
+ "it_drink_051": {
+  "base": 48,
+  "name": "Azoth",
+  "quest": 0
+ },
+ "it_drink_201": {
+  "base": 48,
+  "name": "Bottled Water",
+  "quest": 0
+ },
+ "it_drink_202": {
+  "base": 48,
+  "name": "Apple Juice",
+  "quest": 0
+ },
+ "it_drink_203": {
+  "base": 48,
+  "name": "Raspberry Juice",
+  "quest": 0
+ },
+ "it_drink_204": {
+  "base": 48,
+  "name": "Goat's Milk",
+  "quest": 0
+ },
+ "it_drink_205": {
+  "base": 48,
+  "name": "Cow's Milk",
+  "quest": 0
+ },
+ "it_drink_701": {
+  "base": 48,
+  "name": "Bottled Water",
+  "quest": 0
+ },
+ "it_drink_702": {
+  "base": 48,
+  "name": "Apple Juice",
+  "quest": 0
+ },
+ "it_drink_703": {
+  "base": 48,
+  "name": "Raspberry Juice",
+  "quest": 0
+ },
+ "it_drink_704": {
+  "base": 48,
+  "name": "Goat's Milk",
+  "quest": 0
+ },
+ "it_drink_705": {
+  "base": 48,
+  "name": "Cow's Milk",
+  "quest": 0
+ },
+ "it_empty_001": {
+  "base": 52,
+  "name": "\"Empty\" Item",
+  "quest": 0
+ },
+ "it_fists_001": {
+  "base": 36,
+  "name": "Fist fight",
+  "quest": 0
+ },
+ "it_food_001": {
+  "base": 44,
+  "name": "Honeycomb",
+  "quest": 0
+ },
+ "it_food_002": {
+  "base": 44,
+  "name": "Dried Fruit And Nuts",
+  "quest": 0
+ },
+ "it_food_003": {
+  "base": 44,
+  "name": "Candy",
+  "quest": 0
+ },
+ "it_food_004": {
+  "base": 44,
+  "name": "Sugar Doll",
+  "quest": 0
+ },
+ "it_food_005": {
+  "base": 44,
+  "name": "Mutton Leg",
+  "quest": 0
+ },
+ "it_food_006": {
+  "base": 44,
+  "name": "Chicken Leg",
+  "quest": 0
+ },
+ "it_food_007": {
+  "base": 44,
+  "name": "Bread",
+  "quest": 0
+ },
+ "it_food_008": {
+  "base": 44,
+  "name": "Bread Bun",
+  "quest": 0
+ },
+ "it_food_009": {
+  "base": 44,
+  "name": "Ham Sandwich",
+  "quest": 0
+ },
+ "it_food_010": {
+  "base": 44,
+  "name": "Chicken Sandwich",
+  "quest": 0
+ },
+ "it_food_011": {
+  "base": 44,
+  "name": "Chicken",
+  "quest": 0
+ },
+ "it_food_012": {
+  "base": 44,
+  "name": "Pork",
+  "quest": 0
+ },
+ "it_food_013": {
+  "base": 44,
+  "name": "Watermelon",
+  "quest": 0
+ },
+ "it_food_014": {
+  "base": 44,
+  "name": "GRAPES",
+  "quest": 0
+ },
+ "it_food_015": {
+  "base": 44,
+  "name": "Pear",
+  "quest": 0
+ },
+ "it_food_016": {
+  "base": 44,
+  "name": "Strawberries",
+  "quest": 0
+ },
+ "it_food_017": {
+  "base": 44,
+  "name": "Raspberries",
+  "quest": 0
+ },
+ "it_food_018": {
+  "base": 44,
+  "name": "Blueberries",
+  "quest": 0
+ },
+ "it_food_019": {
+  "base": 44,
+  "name": "Dried Fruit",
+  "quest": 0
+ },
+ "it_food_020": {
+  "base": 44,
+  "name": "Cheese",
+  "quest": 0
+ },
+ "it_food_021": {
+  "base": 44,
+  "name": "Wyvern Meat",
+  "quest": 0
+ },
+ "it_food_022": {
+  "base": 44,
+  "name": "Wyvern Egg",
+  "quest": 0
+ },
+ "it_food_023": {
+  "base": 44,
+  "name": "Cheese",
+  "quest": 0
+ },
+ "it_food_024": {
+  "base": 44,
+  "name": "Cheese",
+  "quest": 0
+ },
+ "it_gabriel_001": {
+  "base": 13,
+  "name": "Gabriel (Assassin)",
+  "quest": 0
+ },
+ "it_gem_001": {
+  "base": 32,
+  "name": "Amber",
+  "quest": 0
+ },
+ "it_gem_002": {
+  "base": 32,
+  "name": "Sapphire",
+  "quest": 0
+ },
+ "it_gem_003": {
+  "base": 32,
+  "name": "Ruby",
+  "quest": 0
+ },
+ "it_gem_004": {
+  "base": 32,
+  "name": "Diamond",
+  "quest": 0
+ },
+ "it_gem_005": {
+  "base": 32,
+  "name": "Diamond",
+  "quest": 0
+ },
+ "it_gift01_t": {
+  "base": 10,
+  "name": "W pysk dawator :-)",
+  "quest": 0
+ },
+ "it_gift02_t": {
+  "base": 10,
+  "name": "Niespodzianka",
+  "quest": 0
+ },
+ "it_gift03_t": {
+  "base": 10,
+  "name": "Nic istotnego",
+  "quest": 0
+ },
+ "it_gold_001": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_002": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_003": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_004": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_005": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_006": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_007": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_008": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_009": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_010": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_011": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_012": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_013": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_gold_014": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "it_grease": {
+  "base": 46,
+  "name": "Vizimean Champion",
+  "quest": 0
+ },
+ "it_grease_001": {
+  "base": 46,
+  "name": "Anti-Specter Oil",
+  "quest": 0
+ },
+ "it_grease_002": {
+  "base": 46,
+  "name": "Blade grease",
+  "quest": 0
+ },
+ "it_grease_003": {
+  "base": 46,
+  "name": "Hanged Man's Venom",
+  "quest": 0
+ },
+ "it_grease_004": {
+  "base": 46,
+  "name": "Argentia",
+  "quest": 0
+ },
+ "it_grease_005": {
+  "base": 46,
+  "name": "Crinfrid Oil",
+  "quest": 0
+ },
+ "it_grease_006": {
+  "base": 46,
+  "name": "Brown Oil",
+  "quest": 0
+ },
+ "it_grease_007": {
+  "base": 46,
+  "name": "Anti-Ornithosaur Oil",
+  "quest": 0
+ },
+ "it_grease_008": {
+  "base": 46,
+  "name": "Anti-Scavenger Wax",
+  "quest": 0
+ },
+ "it_grease_009": {
+  "base": 46,
+  "name": "Anti-Vampire Wax",
+  "quest": 0
+ },
+ "it_grease_010": {
+  "base": 46,
+  "name": "Anti-Insectoid Wax",
+  "quest": 0
+ },
+ "it_grease_011": {
+  "base": 46,
+  "name": "Unknown coating",
+  "quest": 0
+ },
+ "it_grease_012": {
+  "base": 46,
+  "name": "Unknown coating",
+  "quest": 0
+ },
+ "it_grease_019": {
+  "base": 46,
+  "name": "Whetstone For The Steel Sword",
+  "quest": 0
+ },
+ "it_grease_020": {
+  "base": 46,
+  "name": "Grindstone",
+  "quest": 0
+ },
+ "it_grease_021": {
+  "base": 46,
+  "name": "Diamond Dust",
+  "quest": 0
+ },
+ "it_grease_022": {
+  "base": 46,
+  "name": "Wodo Rune Stone",
+  "quest": 0
+ },
+ "it_grease_023": {
+  "base": 46,
+  "name": "Svarog Rune Stone",
+  "quest": 0
+ },
+ "it_grease_024": {
+  "base": 46,
+  "name": "Perun Rune Stone",
+  "quest": 0
+ },
+ "it_ingr_001": {
+  "base": 33,
+  "name": "Cockatrice Feather",
+  "quest": 0
+ },
+ "it_ingr_002": {
+  "base": 33,
+  "name": "Golem's Obsidian Heart",
+  "quest": 0
+ },
+ "it_ingr_003": {
+  "base": 33,
+  "name": "Trace Of The Beyond",
+  "quest": 0
+ },
+ "it_ingr_004": {
+  "base": 33,
+  "name": "Frightener Claw",
+  "quest": 0
+ },
+ "it_ingr_005": {
+  "base": 33,
+  "name": "Skullhead Talons",
+  "quest": 0
+ },
+ "it_ingr_006": {
+  "base": 33,
+  "name": "Zeugl Venom",
+  "quest": 0
+ },
+ "it_ingr_007": {
+  "base": 33,
+  "name": "Werewolf Hair",
+  "quest": 0
+ },
+ "it_ingr_008": {
+  "base": 33,
+  "name": "Dagon Secretions",
+  "quest": 0
+ },
+ "it_ingr_009": {
+  "base": 33,
+  "name": "Koshchey Heart",
+  "quest": 0
+ },
+ "it_ingr_010": {
+  "base": 33,
+  "name": "Striga Heart",
+  "quest": 0
+ },
+ "it_ingr_011": {
+  "base": 33,
+  "name": "Vapors Of The Hunt",
+  "quest": 0
+ },
+ "it_ingr_012": {
+  "base": 33,
+  "name": "Stones Of Ys",
+  "quest": 0
+ },
+ "it_ingr_013": {
+  "base": 33,
+  "name": "Death Dust",
+  "quest": 0
+ },
+ "it_ingr_014": {
+  "base": 33,
+  "name": "Kikimore Queen Nerve",
+  "quest": 0
+ },
+ "it_ingr_015": {
+  "base": 33,
+  "name": "Shimmering Powder",
+  "quest": 0
+ },
+ "it_ingr_016": {
+  "base": 33,
+  "name": "Shadow Dust",
+  "quest": 0
+ },
+ "it_ingr_017": {
+  "base": 33,
+  "name": "Bruxa Blood",
+  "quest": 0
+ },
+ "it_ingr_018": {
+  "base": 33,
+  "name": "Frightener Eye",
+  "quest": 0
+ },
+ "it_ingr_026": {
+  "base": 33,
+  "name": "Goose Fat",
+  "quest": 0
+ },
+ "it_ingr_027": {
+  "base": 33,
+  "name": "Suet",
+  "quest": 0
+ },
+ "it_ingr_028": {
+  "base": 33,
+  "name": "Bear Fat",
+  "quest": 0
+ },
+ "it_ingr_029": {
+  "base": 33,
+  "name": "Alchemical Paste",
+  "quest": 0
+ },
+ "it_ingr_031": {
+  "base": 33,
+  "name": "Saltpeter",
+  "quest": 0
+ },
+ "it_ingr_032": {
+  "base": 33,
+  "name": "Black Powder",
+  "quest": 0
+ },
+ "it_ingr_033": {
+  "base": 33,
+  "name": "Zerrikan Mix",
+  "quest": 0
+ },
+ "it_ingr_034": {
+  "base": 33,
+  "name": "Alchemists' Powder",
+  "quest": 0
+ },
+ "it_ingr_051": {
+  "base": 33,
+  "name": "White Myrtle Petals",
+  "quest": 0
+ },
+ "it_ingr_052": {
+  "base": 33,
+  "name": "Hellebore Petals",
+  "quest": 0
+ },
+ "it_ingr_053": {
+  "base": 33,
+  "name": "Celandine",
+  "quest": 0
+ },
+ "it_ingr_054": {
+  "base": 33,
+  "name": "Balissa Fruit",
+  "quest": 0
+ },
+ "it_ingr_055": {
+  "base": 33,
+  "name": "Crow's Eye",
+  "quest": 0
+ },
+ "it_ingr_056": {
+  "base": 33,
+  "name": "Allspice Root",
+  "quest": 0
+ },
+ "it_ingr_057": {
+  "base": 33,
+  "name": "Wolfsbane",
+  "quest": 0
+ },
+ "it_ingr_058": {
+  "base": 33,
+  "name": "Ergot Seeds",
+  "quest": 0
+ },
+ "it_ingr_059": {
+  "base": 33,
+  "name": "Feainnewedd",
+  "quest": 0
+ },
+ "it_ingr_060": {
+  "base": 33,
+  "name": "Green Mold",
+  "quest": 0
+ },
+ "it_ingr_061": {
+  "base": 33,
+  "name": "Beggartick Flowers",
+  "quest": 0
+ },
+ "it_ingr_062": {
+  "base": 33,
+  "name": "Fool's Parsley Leaves",
+  "quest": 0
+ },
+ "it_ingr_063": {
+  "base": 33,
+  "name": "Wolf's Aloe Leaves",
+  "quest": 0
+ },
+ "it_ingr_064": {
+  "base": 33,
+  "name": "Mandrake Root",
+  "quest": 0
+ },
+ "it_ingr_065": {
+  "base": 33,
+  "name": "Verbena",
+  "quest": 0
+ },
+ "it_ingr_066": {
+  "base": 33,
+  "name": "Hop Umbles",
+  "quest": 0
+ },
+ "it_ingr_067": {
+  "base": 33,
+  "name": "Bryonia",
+  "quest": 0
+ },
+ "it_ingr_068": {
+  "base": 33,
+  "name": "Han Fibres",
+  "quest": 0
+ },
+ "it_ingr_069": {
+  "base": 33,
+  "name": "Berbercane Fruit",
+  "quest": 0
+ },
+ "it_ingr_070": {
+  "base": 33,
+  "name": "Honeysuckle",
+  "quest": 0
+ },
+ "it_ingr_071": {
+  "base": 33,
+  "name": "Sewant Mushroom",
+  "quest": 0
+ },
+ "it_ingr_072": {
+  "base": 33,
+  "name": "Mistletoe",
+  "quest": 0
+ },
+ "it_ingr_073": {
+  "base": 33,
+  "name": "Ginatia Petals",
+  "quest": 0
+ },
+ "it_ingr_101": {
+  "base": 33,
+  "name": "Sulfur",
+  "quest": 0
+ },
+ "it_ingr_102": {
+  "base": 33,
+  "name": "Ginatz Acid",
+  "quest": 0
+ },
+ "it_ingr_103": {
+  "base": 33,
+  "name": "Wine Stone",
+  "quest": 0
+ },
+ "it_ingr_104": {
+  "base": 33,
+  "name": "Naezanian Salts",
+  "quest": 0
+ },
+ "it_ingr_105": {
+  "base": 33,
+  "name": "Calcium Equum",
+  "quest": 0
+ },
+ "it_ingr_106": {
+  "base": 33,
+  "name": "Powdered Pearl",
+  "quest": 0
+ },
+ "it_ingr_107": {
+  "base": 33,
+  "name": "Pyrite",
+  "quest": 0
+ },
+ "it_ingr_108": {
+  "base": 33,
+  "name": "Optima Mater",
+  "quest": 0
+ },
+ "it_ingr_109": {
+  "base": 33,
+  "name": "Fifth Essence",
+  "quest": 0
+ },
+ "it_ingr_110": {
+  "base": 33,
+  "name": "Ducal Water",
+  "quest": 0
+ },
+ "it_ingr_111": {
+  "base": 33,
+  "name": "Phosporus",
+  "quest": 0
+ },
+ "it_ingr_112": {
+  "base": 33,
+  "name": "White Vinegar",
+  "quest": 0
+ },
+ "it_ingr_113": {
+  "base": 33,
+  "name": "Albar's Crystals",
+  "quest": 0
+ },
+ "it_ingr_114": {
+  "base": 33,
+  "name": "Quicksilver Solution",
+  "quest": 0
+ },
+ "it_ingr_115": {
+  "base": 33,
+  "name": "Lunar Shards",
+  "quest": 0
+ },
+ "it_ingr_151": {
+  "base": 33,
+  "name": "Cadaverine",
+  "quest": 0
+ },
+ "it_ingr_152": {
+  "base": 33,
+  "name": "Spores",
+  "quest": 0
+ },
+ "it_ingr_153": {
+  "base": 33,
+  "name": "Abomination Lymph",
+  "quest": 0
+ },
+ "it_ingr_154": {
+  "base": 33,
+  "name": "Vodyanoi Scales",
+  "quest": 0
+ },
+ "it_ingr_155": {
+  "base": 33,
+  "name": "Archespor Juice",
+  "quest": 0
+ },
+ "it_ingr_156": {
+  "base": 33,
+  "name": "Bloedzuiger Blood",
+  "quest": 0
+ },
+ "it_ingr_157": {
+  "base": 33,
+  "name": "Echinops Rootstock",
+  "quest": 0
+ },
+ "it_ingr_158": {
+  "base": 33,
+  "name": "Wing Membrane",
+  "quest": 0
+ },
+ "it_ingr_159": {
+  "base": 33,
+  "name": "Graveir Bone",
+  "quest": 0
+ },
+ "it_ingr_160": {
+  "base": 33,
+  "name": "Ghoul Blood",
+  "quest": 0
+ },
+ "it_ingr_161": {
+  "base": 33,
+  "name": "Ornithosaur Eye",
+  "quest": 0
+ },
+ "it_ingr_162": {
+  "base": 33,
+  "name": "Drowned Dead Tongue",
+  "quest": 0
+ },
+ "it_ingr_163": {
+  "base": 33,
+  "name": "Ectoplasm",
+  "quest": 0
+ },
+ "it_ingr_164": {
+  "base": 33,
+  "name": "Drowner Brain Tissue",
+  "quest": 0
+ },
+ "it_ingr_165": {
+  "base": 33,
+  "name": "Vodyanoi Bladder",
+  "quest": 0
+ },
+ "it_ingr_166": {
+  "base": 33,
+  "name": "Beast Fangs",
+  "quest": 0
+ },
+ "it_ingr_167": {
+  "base": 33,
+  "name": "Beast Liver",
+  "quest": 0
+ },
+ "it_ingr_168": {
+  "base": 33,
+  "name": "Alghoul Marrow",
+  "quest": 0
+ },
+ "it_ingr_169": {
+  "base": 33,
+  "name": "Tendons",
+  "quest": 0
+ },
+ "it_ingr_170": {
+  "base": 33,
+  "name": "Venomous Glands",
+  "quest": 0
+ },
+ "it_ingr_171": {
+  "base": 33,
+  "name": "Garkain Saliva",
+  "quest": 0
+ },
+ "it_ingr_172": {
+  "base": 33,
+  "name": "Toxin",
+  "quest": 0
+ },
+ "it_ingr_173": {
+  "base": 33,
+  "name": "Pituitary Gland",
+  "quest": 0
+ },
+ "it_ingr_174": {
+  "base": 33,
+  "name": "Devourer Teeth",
+  "quest": 0
+ },
+ "it_ingr_175": {
+  "base": 33,
+  "name": "Kikimore Claw",
+  "quest": 0
+ },
+ "it_ingr_176": {
+  "base": 33,
+  "name": "Tracheae",
+  "quest": 0
+ },
+ "it_ingr_177": {
+  "base": 33,
+  "name": "Alp Fangs",
+  "quest": 0
+ },
+ "it_ingr_178": {
+  "base": 33,
+  "name": "Cemetaur Jaw",
+  "quest": 0
+ },
+ "it_ingr_179": {
+  "base": 33,
+  "name": "Mutagen",
+  "quest": 0
+ },
+ "it_ingr_180": {
+  "base": 33,
+  "name": "Dog Tallow",
+  "quest": 0
+ },
+ "it_key_001": {
+  "base": 40,
+  "name": "Leuvaarden key",
+  "quest": 1
+ },
+ "it_key_002": {
+  "base": 40,
+  "name": "Scheffer key",
+  "quest": 1
+ },
+ "it_key_003": {
+  "base": 40,
+  "name": "Grabek key",
+  "quest": 1
+ },
+ "it_key_004": {
+  "base": 40,
+  "name": "Pograbek key",
+  "quest": 1
+ },
+ "it_key_005": {
+  "base": 40,
+  "name": "Fura key",
+  "quest": 1
+ },
+ "it_key_006": {
+  "base": 40,
+  "name": "Harren key",
+  "quest": 1
+ },
+ "it_key_007": {
+  "base": 40,
+  "name": "Ferner key",
+  "quest": 1
+ },
+ "it_key_008": {
+  "base": 40,
+  "name": "Teterer key",
+  "quest": 1
+ },
+ "it_key_018": {
+  "base": 40,
+  "name": "Key to the crypt",
+  "quest": 1
+ },
+ "it_key_019": {
+  "base": 40,
+  "name": "Key to the hideout",
+  "quest": 1
+ },
+ "it_key_020": {
+  "base": 40,
+  "name": "Key to Adam's room",
+  "quest": 1
+ },
+ "it_key_021": {
+  "base": 40,
+  "name": "Azar's key",
+  "quest": 1
+ },
+ "it_key_022": {
+  "base": 40,
+  "name": "Key to the sewers",
+  "quest": 1
+ },
+ "it_key_023": {
+  "base": 40,
+  "name": "Key to the cellar",
+  "quest": 1
+ },
+ "it_key_024": {
+  "base": 40,
+  "name": "Old key to the sewers",
+  "quest": 1
+ },
+ "it_key_025": {
+  "base": 40,
+  "name": "Key to the Grand Master's chambers",
+  "quest": 1
+ },
+ "it_key_026": {
+  "base": 40,
+  "name": "Key to the hut",
+  "quest": 1
+ },
+ "it_key_027": {
+  "base": 40,
+  "name": "Key of the Lionhead Spider",
+  "quest": 1
+ },
+ "it_key_028": {
+  "base": 40,
+  "name": "Key to the gate in front of the inn",
+  "quest": 1
+ },
+ "it_key_29": {
+  "base": 40,
+  "name": "Leuvaarden key",
+  "quest": 1
+ },
+ "it_key_q2107_001": {
+  "base": 27,
+  "name": "Key to Ramsmeat's house",
+  "quest": 0
+ },
+ "it_key_q2130_001": {
+  "base": 40,
+  "name": "Key to the cemetery",
+  "quest": 1
+ },
+ "it_key_q2130_002": {
+  "base": 40,
+  "name": "Key to the crypt",
+  "quest": 1
+ },
+ "it_key_q3005_001": {
+  "base": 40,
+  "name": "Horold's key",
+  "quest": 1
+ },
+ "it_key_q3013_001": {
+  "base": 40,
+  "name": "Key to the Salamandra base",
+  "quest": 1
+ },
+ "it_key_q3016_001": {
+  "base": 40,
+  "name": "Key - Angus'",
+  "quest": 1
+ },
+ "it_key_q3016_002": {
+  "base": 40,
+  "name": "Key - Bandit's",
+  "quest": 1
+ },
+ "it_key_q3042_001": {
+  "base": 40,
+  "name": "Key to the town hall",
+  "quest": 1
+ },
+ "it_key_q3042_002": {
+  "base": 40,
+  "name": "Key to the storehouse",
+  "quest": 1
+ },
+ "it_key_q3051_001": {
+  "base": 40,
+  "name": "Key to the guard storehouse",
+  "quest": 1
+ },
+ "it_laxe_001": {
+  "base": 3,
+  "name": "Axe",
+  "quest": 0
+ },
+ "it_laxe_002": {
+  "base": 3,
+  "name": "Two-Handed Steel Axe",
+  "quest": 0
+ },
+ "it_laxe_003": {
+  "base": 3,
+  "name": "Two-Handed Axe From Mahakam",
+  "quest": 0
+ },
+ "it_laxe_004": {
+  "base": 3,
+  "name": "Master Two-handed Axe of the Order",
+  "quest": 0
+ },
+ "it_laxe_005": {
+  "base": 3,
+  "name": "Two-handed Axe from Mahakam",
+  "quest": 0
+ },
+ "it_laxe_006": {
+  "base": 3,
+  "name": "Two-handed Iron Axe",
+  "quest": 0
+ },
+ "it_laxe_007": {
+  "base": 3,
+  "name": "Master Two-handed Axe from Mahakam",
+  "quest": 0
+ },
+ "it_laxe_008": {
+  "base": 3,
+  "name": "Two-handed Rune Axe from Mahakam",
+  "quest": 0
+ },
+ "it_lclub_001": {
+  "base": 4,
+  "name": "Order Mutant Battle Hammer",
+  "quest": 0
+ },
+ "it_lclub_002": {
+  "base": 4,
+  "name": "Two-Handed Morning Star",
+  "quest": 0
+ },
+ "it_lclub_003": {
+  "base": 4,
+  "name": "Heavy Club",
+  "quest": 0
+ },
+ "it_lclub_004": {
+  "base": 4,
+  "name": "Large Club (Smith's Hammer)",
+  "quest": 0
+ },
+ "it_lclub_005": {
+  "base": 4,
+  "name": "Large Club (Bandit Berserker)",
+  "quest": 0
+ },
+ "it_lclub_006": {
+  "base": 4,
+  "name": "Large Club (Bandit Leader)",
+  "quest": 0
+ },
+ "it_lflail_001": {
+  "base": 5,
+  "name": "Two-Handed Kourbash",
+  "quest": 0
+ },
+ "it_lflail_002": {
+  "base": 5,
+  "name": "Order Mutant Morning Star",
+  "quest": 0
+ },
+ "it_lflail_003": {
+  "base": 5,
+  "name": "Large Flail (Zoltan Chivey)",
+  "quest": 0
+ },
+ "it_lflail_004": {
+  "base": 5,
+  "name": "Large Flail (Bandits Leader)",
+  "quest": 0
+ },
+ "it_lflail_005": {
+  "base": 5,
+  "name": "Large Flail (Bandits Leader)",
+  "quest": 0
+ },
+ "it_lflail_006": {
+  "base": 5,
+  "name": "Large Flail (Bandit)",
+  "quest": 0
+ },
+ "it_lflail_007": {
+  "base": 5,
+  "name": "Large Flail (Boholt)",
+  "quest": 0
+ },
+ "it_magring_001": {
+  "base": 21,
+  "name": "Red Ribbon",
+  "quest": 0
+ },
+ "it_magring_002": {
+  "base": 21,
+  "name": "Garlic",
+  "quest": 0
+ },
+ "it_magring_003": {
+  "base": 21,
+  "name": "Salt In Pouch",
+  "quest": 0
+ },
+ "it_magring_004": {
+  "base": 21,
+  "name": "Rattle",
+  "quest": 0
+ },
+ "it_medalion_003": {
+  "base": 21,
+  "name": "Symbol Of Eternal Fire",
+  "quest": 0
+ },
+ "it_natural_001": {
+  "base": 28,
+  "name": "Natural weapon",
+  "quest": 0
+ },
+ "it_natural_002": {
+  "base": 28,
+  "name": "Natural weapon",
+  "quest": 0
+ },
+ "it_natural_003": {
+  "base": 28,
+  "name": "Natural weapon Zeugl",
+  "quest": 0
+ },
+ "it_natural_004": {
+  "base": 28,
+  "name": "Natural weapon Tentacle Zeugl",
+  "quest": 0
+ },
+ "it_natural_005": {
+  "base": 28,
+  "name": "",
+  "quest": 0
+ },
+ "it_natural_006": {
+  "base": 28,
+  "name": "Natural weapon",
+  "quest": 0
+ },
+ "it_neckl_001": {
+  "base": 20,
+  "name": "Silver Necklace",
+  "quest": 0
+ },
+ "it_neckl_002": {
+  "base": 20,
+  "name": "Silver Amber Necklace",
+  "quest": 0
+ },
+ "it_neckl_003": {
+  "base": 20,
+  "name": "Gold Necklace",
+  "quest": 0
+ },
+ "it_neckl_004": {
+  "base": 20,
+  "name": "Gold Ruby Necklace",
+  "quest": 0
+ },
+ "it_neckl_005": {
+  "base": 20,
+  "name": "Gold Diamond Necklace",
+  "quest": 0
+ },
+ "it_other_006": {
+  "base": 31,
+  "name": "Orens",
+  "quest": 0
+ },
+ "it_other_007": {
+  "base": 45,
+  "name": "Red Roses",
+  "quest": 0
+ },
+ "it_other_008": {
+  "base": 45,
+  "name": "White Roses",
+  "quest": 0
+ },
+ "it_other_009": {
+  "base": 45,
+  "name": "Yellow roses",
+  "quest": 0
+ },
+ "it_other_010": {
+  "base": 45,
+  "name": "Tulips",
+  "quest": 0
+ },
+ "it_other_011": {
+  "base": 45,
+  "name": "Orchids",
+  "quest": 0
+ },
+ "it_other_012": {
+  "base": 45,
+  "name": "Daisies",
+  "quest": 0
+ },
+ "it_other_013": {
+  "base": 45,
+  "name": "Red Shawl",
+  "quest": 0
+ },
+ "it_other_014": {
+  "base": 45,
+  "name": "Golden Shawl",
+  "quest": 0
+ },
+ "it_other_015": {
+  "base": 45,
+  "name": "Red Women's Gloves",
+  "quest": 0
+ },
+ "it_other_016": {
+  "base": 45,
+  "name": "Golden Women's Gloves",
+  "quest": 0
+ },
+ "it_other_017": {
+  "base": 45,
+  "name": "Shawl",
+  "quest": 0
+ },
+ "it_other_018": {
+  "base": 45,
+  "name": "Barghest Skull",
+  "quest": 0
+ },
+ "it_other_019": {
+  "base": 45,
+  "name": "Wolf Skin",
+  "quest": 0
+ },
+ "it_other_020": {
+  "base": 45,
+  "name": "Fleder Fangs",
+  "quest": 0
+ },
+ "it_other_021": {
+  "base": 45,
+  "name": "Basilisk Hide",
+  "quest": 0
+ },
+ "it_other_022": {
+  "base": 45,
+  "name": "Chitinous Carapace",
+  "quest": 0
+ },
+ "it_other_023": {
+  "base": 45,
+  "name": "Salamander Brooch",
+  "quest": 0
+ },
+ "it_other_024": {
+  "base": 45,
+  "name": "Flint",
+  "quest": 0
+ },
+ "it_other_025": {
+  "base": 45,
+  "name": "Bifunctional fiber and alloy recirculator",
+  "quest": 0
+ },
+ "it_phalb_001": {
+  "base": 9,
+  "name": "Halberd",
+  "quest": 0
+ },
+ "it_phalb_002": {
+  "base": 9,
+  "name": "Pike",
+  "quest": 0
+ },
+ "it_phalb_003": {
+  "base": 9,
+  "name": "Halberd (Temeria)",
+  "quest": 0
+ },
+ "it_phalb_004": {
+  "base": 9,
+  "name": "Halberd",
+  "quest": 0
+ },
+ "it_potion": {
+  "base": 22,
+  "name": "Vizimean Champion",
+  "quest": 0
+ },
+ "it_potion_002": {
+  "base": 22,
+  "name": "White Gull",
+  "quest": 0
+ },
+ "it_potion_002a": {
+  "base": 22,
+  "name": "White Gull",
+  "quest": 0
+ },
+ "it_potion_002n": {
+  "base": 22,
+  "name": "White Gull",
+  "quest": 0
+ },
+ "it_potion_002r": {
+  "base": 22,
+  "name": "White Gull",
+  "quest": 0
+ },
+ "it_potion_003": {
+  "base": 22,
+  "name": "Tawny Owl",
+  "quest": 0
+ },
+ "it_potion_003a": {
+  "base": 22,
+  "name": "Tawny Owl",
+  "quest": 0
+ },
+ "it_potion_003n": {
+  "base": 22,
+  "name": "Tawny Owl",
+  "quest": 0
+ },
+ "it_potion_003r": {
+  "base": 22,
+  "name": "Tawny Owl",
+  "quest": 0
+ },
+ "it_potion_004": {
+  "base": 22,
+  "name": "Swallow",
+  "quest": 0
+ },
+ "it_potion_004a": {
+  "base": 22,
+  "name": "Swallow",
+  "quest": 0
+ },
+ "it_potion_004n": {
+  "base": 22,
+  "name": "Swallow",
+  "quest": 0
+ },
+ "it_potion_004r": {
+  "base": 22,
+  "name": "Swallow",
+  "quest": 0
+ },
+ "it_potion_005": {
+  "base": 22,
+  "name": "White Honey",
+  "quest": 0
+ },
+ "it_potion_005a": {
+  "base": 22,
+  "name": "White Honey",
+  "quest": 0
+ },
+ "it_potion_005n": {
+  "base": 22,
+  "name": "White Honey",
+  "quest": 0
+ },
+ "it_potion_005r": {
+  "base": 22,
+  "name": "White Honey",
+  "quest": 0
+ },
+ "it_potion_006": {
+  "base": 22,
+  "name": "Wife's Tears",
+  "quest": 0
+ },
+ "it_potion_006a": {
+  "base": 22,
+  "name": "Wife's Tears",
+  "quest": 0
+ },
+ "it_potion_006n": {
+  "base": 22,
+  "name": "Wife's Tears",
+  "quest": 0
+ },
+ "it_potion_006r": {
+  "base": 22,
+  "name": "Wife's Tears",
+  "quest": 0
+ },
+ "it_potion_007": {
+  "base": 22,
+  "name": "Perfume",
+  "quest": 0
+ },
+ "it_potion_007a": {
+  "base": 22,
+  "name": "Perfume",
+  "quest": 0
+ },
+ "it_potion_007n": {
+  "base": 22,
+  "name": "Perfume",
+  "quest": 0
+ },
+ "it_potion_007r": {
+  "base": 22,
+  "name": "Perfume",
+  "quest": 0
+ },
+ "it_potion_008": {
+  "base": 22,
+  "name": "Golden Oriole",
+  "quest": 0
+ },
+ "it_potion_008a": {
+  "base": 22,
+  "name": "Golden Oriole",
+  "quest": 0
+ },
+ "it_potion_008n": {
+  "base": 22,
+  "name": "Golden Oriole",
+  "quest": 0
+ },
+ "it_potion_008r": {
+  "base": 22,
+  "name": "Golden Oriole",
+  "quest": 0
+ },
+ "it_potion_009": {
+  "base": 22,
+  "name": "Maribor Forest",
+  "quest": 0
+ },
+ "it_potion_009a": {
+  "base": 22,
+  "name": "Maribor Forest",
+  "quest": 0
+ },
+ "it_potion_009n": {
+  "base": 22,
+  "name": "Maribor Forest",
+  "quest": 0
+ },
+ "it_potion_009r": {
+  "base": 22,
+  "name": "Maribor Forest",
+  "quest": 0
+ },
+ "it_potion_010": {
+  "base": 22,
+  "name": "White Raffard's Decoct",
+  "quest": 0
+ },
+ "it_potion_010a": {
+  "base": 22,
+  "name": "White Raffard's Decoct",
+  "quest": 0
+ },
+ "it_potion_010n": {
+  "base": 22,
+  "name": "White Raffard's Decoct",
+  "quest": 0
+ },
+ "it_potion_010r": {
+  "base": 22,
+  "name": "White Raffard's Decoct",
+  "quest": 0
+ },
+ "it_potion_011": {
+  "base": 22,
+  "name": "Wolverine",
+  "quest": 0
+ },
+ "it_potion_011a": {
+  "base": 22,
+  "name": "Wolverine",
+  "quest": 0
+ },
+ "it_potion_011n": {
+  "base": 22,
+  "name": "Wolverine",
+  "quest": 0
+ },
+ "it_potion_011r": {
+  "base": 22,
+  "name": "Wolverine",
+  "quest": 0
+ },
+ "it_potion_012": {
+  "base": 22,
+  "name": "Petri's Philter",
+  "quest": 0
+ },
+ "it_potion_012a": {
+  "base": 22,
+  "name": "Petri's Philter",
+  "quest": 0
+ },
+ "it_potion_012n": {
+  "base": 22,
+  "name": "Petri's Philter",
+  "quest": 0
+ },
+ "it_potion_012r": {
+  "base": 22,
+  "name": "Petri's Philter",
+  "quest": 0
+ },
+ "it_potion_013": {
+  "base": 22,
+  "name": "Cat",
+  "quest": 0
+ },
+ "it_potion_013a": {
+  "base": 22,
+  "name": "Cat",
+  "quest": 0
+ },
+ "it_potion_013n": {
+  "base": 22,
+  "name": "Cat",
+  "quest": 0
+ },
+ "it_potion_013r": {
+  "base": 22,
+  "name": "Cat",
+  "quest": 0
+ },
+ "it_potion_014": {
+  "base": 22,
+  "name": "Fisstech",
+  "quest": 0
+ },
+ "it_potion_014a": {
+  "base": 22,
+  "name": "Fisstech",
+  "quest": 0
+ },
+ "it_potion_014n": {
+  "base": 22,
+  "name": "Fisstech",
+  "quest": 0
+ },
+ "it_potion_014r": {
+  "base": 22,
+  "name": "Fisstech",
+  "quest": 0
+ },
+ "it_potion_015": {
+  "base": 40,
+  "name": "Medicine For Triss",
+  "quest": 1
+ },
+ "it_potion_015a": {
+  "base": 40,
+  "name": "Medicine For Triss",
+  "quest": 1
+ },
+ "it_potion_015n": {
+  "base": 40,
+  "name": "Medicine For Triss",
+  "quest": 1
+ },
+ "it_potion_015r": {
+  "base": 40,
+  "name": "Medicine For Triss",
+  "quest": 1
+ },
+ "it_potion_016": {
+  "base": 22,
+  "name": "Shrike",
+  "quest": 0
+ },
+ "it_potion_016a": {
+  "base": 22,
+  "name": "Shrike",
+  "quest": 0
+ },
+ "it_potion_016n": {
+  "base": 22,
+  "name": "Shrike",
+  "quest": 0
+ },
+ "it_potion_016r": {
+  "base": 22,
+  "name": "Shrike",
+  "quest": 0
+ },
+ "it_potion_017": {
+  "base": 22,
+  "name": "Wolf",
+  "quest": 0
+ },
+ "it_potion_017a": {
+  "base": 22,
+  "name": "Wolf",
+  "quest": 0
+ },
+ "it_potion_017n": {
+  "base": 22,
+  "name": "Wolf",
+  "quest": 0
+ },
+ "it_potion_017r": {
+  "base": 22,
+  "name": "Wolf",
+  "quest": 0
+ },
+ "it_potion_018": {
+  "base": 22,
+  "name": "Kiss",
+  "quest": 0
+ },
+ "it_potion_018a": {
+  "base": 22,
+  "name": "Kiss",
+  "quest": 0
+ },
+ "it_potion_018n": {
+  "base": 22,
+  "name": "Kiss",
+  "quest": 0
+ },
+ "it_potion_018r": {
+  "base": 22,
+  "name": "Kiss",
+  "quest": 0
+ },
+ "it_potion_019": {
+  "base": 22,
+  "name": "Blizzard",
+  "quest": 0
+ },
+ "it_potion_019a": {
+  "base": 22,
+  "name": "Blizzard",
+  "quest": 0
+ },
+ "it_potion_019n": {
+  "base": 22,
+  "name": "Blizzard",
+  "quest": 0
+ },
+ "it_potion_019r": {
+  "base": 22,
+  "name": "Blizzard",
+  "quest": 0
+ },
+ "it_potion_020": {
+  "base": 22,
+  "name": "Black Blood",
+  "quest": 0
+ },
+ "it_potion_020a": {
+  "base": 22,
+  "name": "Black Blood",
+  "quest": 0
+ },
+ "it_potion_020n": {
+  "base": 22,
+  "name": "Black Blood",
+  "quest": 0
+ },
+ "it_potion_020r": {
+  "base": 22,
+  "name": "Black Blood",
+  "quest": 0
+ },
+ "it_potion_021": {
+  "base": 22,
+  "name": "Bindweed",
+  "quest": 0
+ },
+ "it_potion_021a": {
+  "base": 22,
+  "name": "Bindweed",
+  "quest": 0
+ },
+ "it_potion_021n": {
+  "base": 22,
+  "name": "Bindweed",
+  "quest": 0
+ },
+ "it_potion_021r": {
+  "base": 22,
+  "name": "Bindweed",
+  "quest": 0
+ },
+ "it_potion_022": {
+  "base": 22,
+  "name": "Full Moon",
+  "quest": 0
+ },
+ "it_potion_022a": {
+  "base": 22,
+  "name": "Full Moon",
+  "quest": 0
+ },
+ "it_potion_022n": {
+  "base": 22,
+  "name": "Full Moon",
+  "quest": 0
+ },
+ "it_potion_022r": {
+  "base": 22,
+  "name": "Excelcio",
+  "quest": 0
+ },
+ "it_potion_023": {
+  "base": 22,
+  "name": "Thunderbolt",
+  "quest": 0
+ },
+ "it_potion_023a": {
+  "base": 22,
+  "name": "Thunderbolt",
+  "quest": 0
+ },
+ "it_potion_023n": {
+  "base": 22,
+  "name": "Thunderbolt",
+  "quest": 0
+ },
+ "it_potion_023r": {
+  "base": 22,
+  "name": "Thunderbolt",
+  "quest": 0
+ },
+ "it_potion_024": {
+  "base": 22,
+  "name": "Willow",
+  "quest": 0
+ },
+ "it_potion_024a": {
+  "base": 22,
+  "name": "Willow",
+  "quest": 0
+ },
+ "it_potion_024n": {
+  "base": 22,
+  "name": "Willow",
+  "quest": 0
+ },
+ "it_potion_024r": {
+  "base": 22,
+  "name": "Willow",
+  "quest": 0
+ },
+ "it_potion_025": {
+  "base": 22,
+  "name": "De Vries's Extract",
+  "quest": 0
+ },
+ "it_potion_025a": {
+  "base": 22,
+  "name": "De Vries's Extract",
+  "quest": 0
+ },
+ "it_potion_025n": {
+  "base": 22,
+  "name": "De Vries's Extract",
+  "quest": 0
+ },
+ "it_potion_025r": {
+  "base": 22,
+  "name": "De Vries's Extract",
+  "quest": 0
+ },
+ "it_potion_027": {
+  "base": 22,
+  "name": "Failed potion",
+  "quest": 0
+ },
+ "it_potion_101": {
+  "base": 22,
+  "name": "Dagon Secretions Potion",
+  "quest": 0
+ },
+ "it_potion_102": {
+  "base": 22,
+  "name": "Werewolf Hair Potion",
+  "quest": 0
+ },
+ "it_potion_103": {
+  "base": 22,
+  "name": "Kikimore Nerve Potion",
+  "quest": 0
+ },
+ "it_potion_104": {
+  "base": 22,
+  "name": "Golem Heart Potion",
+  "quest": 0
+ },
+ "it_potion_105": {
+  "base": 22,
+  "name": "Frightener Eye Potion",
+  "quest": 0
+ },
+ "it_potion_106": {
+  "base": 22,
+  "name": "Hellhound Potion",
+  "quest": 0
+ },
+ "it_potion_107": {
+  "base": 22,
+  "name": "Striga Heart Potion",
+  "quest": 0
+ },
+ "it_potion_108": {
+  "base": 22,
+  "name": "Koshchey Heart Potion",
+  "quest": 0
+ },
+ "it_potion_109": {
+  "base": 22,
+  "name": "Zeugl Venom Potion",
+  "quest": 0
+ },
+ "it_potion_152": {
+  "base": 22,
+  "name": "Vizimean Champion",
+  "quest": 0
+ },
+ "it_pspear_001": {
+  "base": 25,
+  "name": "Spear (Guard)",
+  "quest": 0
+ },
+ "it_pspear_002": {
+  "base": 25,
+  "name": "Scoiatael (Elf Woman)",
+  "quest": 0
+ },
+ "it_q1001_key": {
+  "base": 40,
+  "name": "",
+  "quest": 1
+ },
+ "it_q2127": {
+  "base": 40,
+  "name": "Key to the haunted house",
+  "quest": 1
+ },
+ "it_quest_000": {
+  "base": 10,
+  "name": "Q_item",
+  "quest": 1
+ },
+ "it_quest_108": {
+  "base": 40,
+  "name": "Arrest warrant",
+  "quest": 1
+ },
+ "it_quest_114": {
+  "base": 40,
+  "name": "Bandit's letter",
+  "quest": 1
+ },
+ "it_quest_116": {
+  "base": 40,
+  "name": "Bandit's package",
+  "quest": 1
+ },
+ "it_quest_117": {
+  "base": 40,
+  "name": "Broken Brooch with a salamander",
+  "quest": 1
+ },
+ "it_quest_121": {
+  "base": 0,
+  "name": "",
+  "quest": 1
+ },
+ "it_quest_121a": {
+  "base": 40,
+  "name": "Key to the sewers",
+  "quest": 1
+ },
+ "it_quest_122": {
+  "base": 40,
+  "name": "Yaevinn's letter",
+  "quest": 1
+ },
+ "it_quest_123": {
+  "base": 40,
+  "name": "Vivaldi's Letter",
+  "quest": 1
+ },
+ "it_quest_124": {
+  "base": 40,
+  "name": "Key to the sewers",
+  "quest": 1
+ },
+ "it_quest_125": {
+  "base": 40,
+  "name": "Maal'kad sephirah",
+  "quest": 1
+ },
+ "it_quest_126": {
+  "base": 40,
+  "name": "Veen'ah sephirah",
+  "quest": 1
+ },
+ "it_quest_127": {
+  "base": 40,
+  "name": "Ghe'vrath sephirah",
+  "quest": 1
+ },
+ "it_quest_128": {
+  "base": 40,
+  "name": "Oth sephirah",
+  "quest": 1
+ },
+ "it_quest_129": {
+  "base": 40,
+  "name": "Keth'aar sephirah",
+  "quest": 1
+ },
+ "it_quest_130": {
+  "base": 40,
+  "name": "Chocc'mah sephirah",
+  "quest": 1
+ },
+ "it_quest_131": {
+  "base": 40,
+  "name": "Kezath sephirah",
+  "quest": 1
+ },
+ "it_quest_132": {
+  "base": 40,
+  "name": "Tipperath sephirah",
+  "quest": 1
+ },
+ "it_quest_133": {
+  "base": 40,
+  "name": "Y'esath sephirah",
+  "quest": 1
+ },
+ "it_quest_134": {
+  "base": 40,
+  "name": "Neh'tza sephirah",
+  "quest": 1
+ },
+ "it_quest_135": {
+  "base": 40,
+  "name": "Glean Enid",
+  "quest": 1
+ },
+ "it_quest_136": {
+  "base": 40,
+  "name": "Anti-illusion philter",
+  "quest": 1
+ },
+ "it_quest_137": {
+  "base": 40,
+  "name": "Tower tarot card",
+  "quest": 1
+ },
+ "it_quest_138": {
+  "base": 40,
+  "name": "Lightning rod",
+  "quest": 1
+ },
+ "it_quest_139": {
+  "base": 40,
+  "name": "Key to the box",
+  "quest": 1
+ },
+ "it_quest_140": {
+  "base": 40,
+  "name": "Family ring",
+  "quest": 1
+ },
+ "it_quest_141": {
+  "base": 40,
+  "name": "Igniting concoction",
+  "quest": 1
+ },
+ "it_quest_142": {
+  "base": 40,
+  "name": "Tower mage's book",
+  "quest": 1
+ },
+ "it_quest_143": {
+  "base": 0,
+  "name": "",
+  "quest": 1
+ },
+ "it_quest_144": {
+  "base": 0,
+  "name": "",
+  "quest": 1
+ },
+ "it_quest_145": {
+  "base": 0,
+  "name": "",
+  "quest": 1
+ },
+ "it_quest_148": {
+  "base": 40,
+  "name": "Eternal Fire",
+  "quest": 1
+ },
+ "it_quest_149": {
+  "base": 40,
+  "name": "Isa's beads",
+  "quest": 1
+ },
+ "it_quest_150": {
+  "base": 40,
+  "name": "Vodyanoi amulet",
+  "quest": 1
+ },
+ "it_quest_151": {
+  "base": 40,
+  "name": "Dandelion's lute",
+  "quest": 1
+ },
+ "it_quest_152": {
+  "base": 40,
+  "name": "Letter of recommendation",
+  "quest": 1
+ },
+ "it_quest_153": {
+  "base": 40,
+  "name": "Dwarf's treasure",
+  "quest": 1
+ },
+ "it_quest_154": {
+  "base": 40,
+  "name": "Lycanthropy cure",
+  "quest": 1
+ },
+ "it_quest_155": {
+  "base": 40,
+  "name": "Sapphire",
+  "quest": 1
+ },
+ "it_quest_156": {
+  "base": 40,
+  "name": "Letter from Godric Bleinheim",
+  "quest": 1
+ },
+ "it_quest_157": {
+  "base": 40,
+  "name": "Salamandra documents",
+  "quest": 1
+ },
+ "it_quest_158": {
+  "base": 40,
+  "name": "Grandma's cordial",
+  "quest": 1
+ },
+ "it_quest_159": {
+  "base": 40,
+  "name": "Grandma's pickles and lard",
+  "quest": 1
+ },
+ "it_quest_160": {
+  "base": 40,
+  "name": "Grandma's Diary",
+  "quest": 1
+ },
+ "it_quest_161": {
+  "base": 40,
+  "name": "Bloody Letter",
+  "quest": 1
+ },
+ "it_quest_162": {
+  "base": 40,
+  "name": "Coating",
+  "quest": 1
+ },
+ "it_quest_163": {
+  "base": 40,
+  "name": "Witcher's amulet",
+  "quest": 1
+ },
+ "it_quest_164": {
+  "base": 40,
+  "name": "Berengar's notes on the beast",
+  "quest": 1
+ },
+ "it_quest_165": {
+  "base": 40,
+  "name": "Key to Salamandra code",
+  "quest": 1
+ },
+ "it_quest_166": {
+  "base": 40,
+  "name": "Encrypted document",
+  "quest": 1
+ },
+ "it_quest_167": {
+  "base": 40,
+  "name": "Decrypted document",
+  "quest": 1
+ },
+ "it_quest_168": {
+  "base": 40,
+  "name": "Royal letter of safe conduct",
+  "quest": 1
+ },
+ "it_quest_169": {
+  "base": 40,
+  "name": "Letter of safe conduct",
+  "quest": 1
+ },
+ "it_quest_170": {
+  "base": 40,
+  "name": "Psilocybe",
+  "quest": 1
+ },
+ "it_quest_171": {
+  "base": 40,
+  "name": "Mysterious note",
+  "quest": 1
+ },
+ "it_quest_172": {
+  "base": 40,
+  "name": "Seeing stone",
+  "quest": 1
+ },
+ "it_quest_175": {
+  "base": 40,
+  "name": "Shard of Alina's mirror.",
+  "quest": 1
+ },
+ "it_quest_176": {
+  "base": 40,
+  "name": "Alina's broken mirror",
+  "quest": 1
+ },
+ "it_quest_177": {
+  "base": 40,
+  "name": "Dimeritium amulet",
+  "quest": 1
+ },
+ "it_quest_178": {
+  "base": 40,
+  "name": "Magic sensor",
+  "quest": 1
+ },
+ "it_quest_179": {
+  "base": 40,
+  "name": "Vodyanoi ring",
+  "quest": 1
+ },
+ "it_quest_180": {
+  "base": 40,
+  "name": "Gramps's diamond",
+  "quest": 1
+ },
+ "it_quest_181": {
+  "base": 40,
+  "name": "Alabaster figurine",
+  "quest": 1
+ },
+ "it_quest_182": {
+  "base": 40,
+  "name": "Gold bracelet",
+  "quest": 1
+ },
+ "it_quest_183": {
+  "base": 40,
+  "name": "The Lady of the Lake's Ruby",
+  "quest": 1
+ },
+ "it_quest_184": {
+  "base": 40,
+  "name": "Gold Calf",
+  "quest": 1
+ },
+ "it_quest_185": {
+  "base": 40,
+  "name": "Alina's garland",
+  "quest": 1
+ },
+ "it_quest_186": {
+  "base": 40,
+  "name": "Priest's staff",
+  "quest": 1
+ },
+ "it_quest_187": {
+  "base": 40,
+  "name": "Berengar's letter",
+  "quest": 1
+ },
+ "it_quest_188": {
+  "base": 40,
+  "name": "Professor's Report",
+  "quest": 1
+ },
+ "it_quest_189": {
+  "base": 40,
+  "name": "Ostrit's diary",
+  "quest": 1
+ },
+ "it_quest_190": {
+  "base": 40,
+  "name": "Secrets stolen from Kaer Morhen",
+  "quest": 1
+ },
+ "it_quest_191": {
+  "base": 40,
+  "name": "Glass vial",
+  "quest": 1
+ },
+ "it_quest_192": {
+  "base": 40,
+  "name": "Strawflower garland",
+  "quest": 1
+ },
+ "it_quest_193": {
+  "base": 40,
+  "name": "Turquoise necklace",
+  "quest": 1
+ },
+ "it_quest_194": {
+  "base": 40,
+  "name": "Human remains",
+  "quest": 1
+ },
+ "it_quest_195": {
+  "base": 40,
+  "name": "Four-leaf clover",
+  "quest": 1
+ },
+ "it_quest_196": {
+  "base": 40,
+  "name": "Harness for a cat",
+  "quest": 1
+ },
+ "it_quest_197": {
+  "base": 40,
+  "name": "Yellow milk",
+  "quest": 1
+ },
+ "it_quest_198": {
+  "base": 40,
+  "name": "Receipt",
+  "quest": 1
+ },
+ "it_quest_199": {
+  "base": 40,
+  "name": "Dice box",
+  "quest": 1
+ },
+ "it_quest_200": {
+  "base": 40,
+  "name": "Bifunctional fiber and alloy recirculator",
+  "quest": 1
+ },
+ "it_quest_201": {
+  "base": 40,
+  "name": "St. Gregory's litany",
+  "quest": 1
+ },
+ "it_quest_202": {
+  "base": 40,
+  "name": "Magic formula",
+  "quest": 1
+ },
+ "it_quest_203": {
+  "base": 40,
+  "name": "Piece of armor",
+  "quest": 1
+ },
+ "it_quest_204": {
+  "base": 40,
+  "name": "Remains of the Raven's Armor",
+  "quest": 1
+ },
+ "it_quest_205": {
+  "base": 40,
+  "name": "Royal edicts",
+  "quest": 1
+ },
+ "it_quest_206": {
+  "base": 40,
+  "name": "Famous fist-fighter's tooth.",
+  "quest": 1
+ },
+ "it_quest_207": {
+  "base": 40,
+  "name": "Notes of an elven minstrel",
+  "quest": 1
+ },
+ "it_quest_208": {
+  "base": 40,
+  "name": "Letter of safe conduct issued by the city militia",
+  "quest": 1
+ },
+ "it_quest_209": {
+  "base": 40,
+  "name": "Letter of safe conduct issued by the city militia",
+  "quest": 1
+ },
+ "it_quest_210": {
+  "base": 40,
+  "name": "Catoblepases",
+  "quest": 1
+ },
+ "it_quest_211": {
+  "base": 40,
+  "name": "Vizima cemetery pass",
+  "quest": 1
+ },
+ "it_quest_212": {
+  "base": 40,
+  "name": "Brooch",
+  "quest": 1
+ },
+ "it_quest_213": {
+  "base": 40,
+  "name": "List of suspects",
+  "quest": 1
+ },
+ "it_quest_214": {
+  "base": 40,
+  "name": "Teleporting crystal",
+  "quest": 1
+ },
+ "it_quest_215": {
+  "base": 40,
+  "name": "Letter from Triss",
+  "quest": 1
+ },
+ "it_quest_216": {
+  "base": 40,
+  "name": "Letter from Shani",
+  "quest": 1
+ },
+ "it_quest_218": {
+  "base": 40,
+  "name": "Letter to Triss",
+  "quest": 1
+ },
+ "it_quest_219": {
+  "base": 40,
+  "name": "Letter to Triss",
+  "quest": 1
+ },
+ "it_quest_220": {
+  "base": 40,
+  "name": "Letter to Triss",
+  "quest": 1
+ },
+ "it_quest_221": {
+  "base": 40,
+  "name": "Letter to Triss",
+  "quest": 1
+ },
+ "it_quest_222": {
+  "base": 40,
+  "name": "Letter to Shani",
+  "quest": 1
+ },
+ "it_quest_223": {
+  "base": 40,
+  "name": "Letter to Shani",
+  "quest": 1
+ },
+ "it_quest_224": {
+  "base": 40,
+  "name": "Letter to Shani",
+  "quest": 1
+ },
+ "it_quest_225": {
+  "base": 40,
+  "name": "Letter to Shani",
+  "quest": 1
+ },
+ "it_quest_226": {
+  "base": 40,
+  "name": "Magistrer Notes",
+  "quest": 1
+ },
+ "it_quest_228": {
+  "base": 29,
+  "name": "Werewolf's pelt",
+  "quest": 0
+ },
+ "it_quest_229": {
+  "base": 40,
+  "name": "List of suspects",
+  "quest": 1
+ },
+ "it_quest_230": {
+  "base": 40,
+  "name": "Berengar's notes on the beast",
+  "quest": 1
+ },
+ "it_ring_001": {
+  "base": 23,
+  "name": "Silver Ring",
+  "quest": 0
+ },
+ "it_ring_002": {
+  "base": 23,
+  "name": "Silver Amber Ring",
+  "quest": 0
+ },
+ "it_ring_003": {
+  "base": 23,
+  "name": "Silver Ruby Ring",
+  "quest": 0
+ },
+ "it_ring_004": {
+  "base": 23,
+  "name": "Gold Ring",
+  "quest": 0
+ },
+ "it_ring_005": {
+  "base": 23,
+  "name": "Gold Sapphire Ring",
+  "quest": 0
+ },
+ "it_ring_006": {
+  "base": 23,
+  "name": "Gold Diamond Ring",
+  "quest": 0
+ },
+ "it_ring_007": {
+  "base": 23,
+  "name": "Silver Signet Ring",
+  "quest": 0
+ },
+ "it_ring_008": {
+  "base": 23,
+  "name": "Silver Ruby Ring",
+  "quest": 0
+ },
+ "it_ring_009": {
+  "base": 23,
+  "name": "Gold Signet Ring",
+  "quest": 0
+ },
+ "it_ring_010": {
+  "base": 23,
+  "name": "Gold Ruby Signet Ring",
+  "quest": 0
+ },
+ "it_ring_011": {
+  "base": 23,
+  "name": "Signet Ring Of Eternal Fire",
+  "quest": 0
+ },
+ "it_ring_012": {
+  "base": 23,
+  "name": "Signet Ring Of The City Watch",
+  "quest": 0
+ },
+ "it_ring_013": {
+  "base": 23,
+  "name": "Signet Ring Of Lebioda The Prophet",
+  "quest": 0
+ },
+ "it_ring_014": {
+  "base": 23,
+  "name": "Illuminati Signet Ring",
+  "quest": 0
+ },
+ "it_ring_015": {
+  "base": 23,
+  "name": "Signet Ring Of The Nocturnal House",
+  "quest": 0
+ },
+ "it_ring_016": {
+  "base": 23,
+  "name": "Royal Signet Ring",
+  "quest": 0
+ },
+ "it_ring_017": {
+  "base": 23,
+  "name": "Gold Signet Ring",
+  "quest": 0
+ },
+ "it_saxe_001": {
+  "base": 12,
+  "name": "Small Axe",
+  "quest": 0
+ },
+ "it_saxe_002": {
+  "base": 12,
+  "name": "Temerian Iron Axe",
+  "quest": 0
+ },
+ "it_saxe_003": {
+  "base": 12,
+  "name": "Temerian Steel Axe",
+  "quest": 0
+ },
+ "it_saxe_004": {
+  "base": 12,
+  "name": "Dwarven axe from Carbon",
+  "quest": 0
+ },
+ "it_saxe_005": {
+  "base": 12,
+  "name": "Dwarven Axe From Carbon",
+  "quest": 0
+ },
+ "it_saxe_006": {
+  "base": 12,
+  "name": "Dwarven Axe From Mahakam",
+  "quest": 0
+ },
+ "it_saxe_007": {
+  "base": 12,
+  "name": "Rune Axe From Carbon",
+  "quest": 0
+ },
+ "it_saxe_008": {
+  "base": 12,
+  "name": "Holy Axe Of The Order",
+  "quest": 0
+ },
+ "it_sclub_001": {
+  "base": 19,
+  "name": "Temerian Battle Flail",
+  "quest": 0
+ },
+ "it_sclub_002": {
+  "base": 19,
+  "name": "Temerian battle hammer",
+  "quest": 0
+ },
+ "it_sclub_003": {
+  "base": 19,
+  "name": "Order Battle Hammer",
+  "quest": 0
+ },
+ "it_sclub_004": {
+  "base": 19,
+  "name": "Holy Battle Hammer Of The Order",
+  "quest": 0
+ },
+ "it_sclub_005": {
+  "base": 19,
+  "name": "Mahakam Battle Hammer",
+  "quest": 0
+ },
+ "it_sclub_006": {
+  "base": 19,
+  "name": "Stone Hammer",
+  "quest": 0
+ },
+ "it_sclub_007": {
+  "base": 19,
+  "name": "Light Club",
+  "quest": 0
+ },
+ "it_sclub_201": {
+  "base": 19,
+  "name": "Torch",
+  "quest": 0
+ },
+ "it_scroll_006": {
+  "base": 30,
+  "name": "Letter from Triss",
+  "quest": 0
+ },
+ "it_scroll_007": {
+  "base": 30,
+  "name": "Letter from Shani",
+  "quest": 0
+ },
+ "it_scroll_008": {
+  "base": 40,
+  "name": "The Secret Gates",
+  "quest": 1
+ },
+ "it_scroll_009": {
+  "base": 40,
+  "name": "Ain Soph Aur",
+  "quest": 1
+ },
+ "it_scroll_010": {
+  "base": 30,
+  "name": "Letter for Knight Eric.",
+  "quest": 0
+ },
+ "it_scroll_101": {
+  "base": 30,
+  "name": "Argentia's formula",
+  "quest": 0
+ },
+ "it_scroll_102": {
+  "base": 30,
+  "name": "Book of Swallow",
+  "quest": 0
+ },
+ "it_scroll_105": {
+  "base": 30,
+  "name": "Book of Tawny Owl",
+  "quest": 0
+ },
+ "it_scroll_106": {
+  "base": 30,
+  "name": "Book of Oriole",
+  "quest": 0
+ },
+ "it_scroll_107": {
+  "base": 30,
+  "name": "Book of Kiss",
+  "quest": 0
+ },
+ "it_scroll_108": {
+  "base": 30,
+  "name": "Book of Wolverine",
+  "quest": 0
+ },
+ "it_scroll_109": {
+  "base": 30,
+  "name": "Book of Thunder",
+  "quest": 0
+ },
+ "it_scroll_110": {
+  "base": 30,
+  "name": "Zerrikan Alchemy",
+  "quest": 0
+ },
+ "it_scroll_111": {
+  "base": 30,
+  "name": "Secrets of southern masters",
+  "quest": 0
+ },
+ "it_scroll_112": {
+  "base": 30,
+  "name": "Dragon's Dream",
+  "quest": 0
+ },
+ "it_scroll_113": {
+  "base": 30,
+  "name": "Samum",
+  "quest": 0
+ },
+ "it_scroll_114": {
+  "base": 30,
+  "name": "The Recipe for White Raffard's Decoct",
+  "quest": 0
+ },
+ "it_scroll_115": {
+  "base": 30,
+  "name": "Recipe for the De Vries Extract",
+  "quest": 0
+ },
+ "it_scroll_116": {
+  "base": 30,
+  "name": "The recipe for Maribor Forest",
+  "quest": 0
+ },
+ "it_scroll_117": {
+  "base": 30,
+  "name": "The recipe for the Petri's Philter potion",
+  "quest": 0
+ },
+ "it_scroll_118": {
+  "base": 30,
+  "name": "The recipe for the Hanged Man's Venom",
+  "quest": 0
+ },
+ "it_scroll_150": {
+  "base": 30,
+  "name": "Frightener's Vision",
+  "quest": 0
+ },
+ "it_scroll_151": {
+  "base": 30,
+  "name": "Hellhound Potion",
+  "quest": 0
+ },
+ "it_scroll_152": {
+  "base": 30,
+  "name": "Golem Heart Potion",
+  "quest": 0
+ },
+ "it_scroll_153": {
+  "base": 30,
+  "name": "Werewolf Hair Potion",
+  "quest": 0
+ },
+ "it_scroll_154": {
+  "base": 30,
+  "name": "Kikimore Nerve Potion",
+  "quest": 0
+ },
+ "it_scroll_155": {
+  "base": 30,
+  "name": "Dagon Secretions Potion",
+  "quest": 0
+ },
+ "it_scroll_156": {
+  "base": 30,
+  "name": "Striga Heart Potion",
+  "quest": 0
+ },
+ "it_scroll_157": {
+  "base": 30,
+  "name": "Koshchey Heart Potion",
+  "quest": 0
+ },
+ "it_scroll_158": {
+  "base": 30,
+  "name": "Zeugl Venom Potion",
+  "quest": 0
+ },
+ "it_scroll_201": {
+  "base": 30,
+  "name": "Monstrum or Witcher's Description",
+  "quest": 0
+ },
+ "it_scroll_202": {
+  "base": 30,
+  "name": "Shadow People', or the Story of His majesty's Secret Service",
+  "quest": 0
+ },
+ "it_scroll_203": {
+  "base": 30,
+  "name": "The Story of Lara Dorren and Cregen of Lod",
+  "quest": 0
+ },
+ "it_scroll_204": {
+  "base": 30,
+  "name": "Lara's Gift",
+  "quest": 0
+ },
+ "it_scroll_205": {
+  "base": 30,
+  "name": "Transmutations and Metamorphoses",
+  "quest": 0
+ },
+ "it_scroll_206": {
+  "base": 30,
+  "name": "The Flower and the Flame",
+  "quest": 0
+ },
+ "it_scroll_207": {
+  "base": 30,
+  "name": "Conjunction of the Spheres",
+  "quest": 0
+ },
+ "it_scroll_208": {
+  "base": 30,
+  "name": "The History of the World",
+  "quest": 0
+ },
+ "it_scroll_209": {
+  "base": 30,
+  "name": "Recent History",
+  "quest": 0
+ },
+ "it_scroll_210": {
+  "base": 30,
+  "name": "An Invitation to Magic",
+  "quest": 0
+ },
+ "it_scroll_211": {
+  "base": 30,
+  "name": "Forensic Medicine",
+  "quest": 0
+ },
+ "it_scroll_212": {
+  "base": 30,
+  "name": "Zerrikan Insects and Other Vermin",
+  "quest": 0
+ },
+ "it_scroll_213": {
+  "base": 30,
+  "name": "A Guide to Vizima",
+  "quest": 0
+ },
+ "it_scroll_214": {
+  "base": 30,
+  "name": "Foreign Lands",
+  "quest": 0
+ },
+ "it_scroll_215": {
+  "base": 30,
+  "name": "Sorceresses and Sorcerers",
+  "quest": 0
+ },
+ "it_scroll_216": {
+  "base": 30,
+  "name": "The Kingdom of Temeria",
+  "quest": 0
+ },
+ "it_scroll_217": {
+  "base": 30,
+  "name": "Against Nonhumans",
+  "quest": 0
+ },
+ "it_scroll_218": {
+  "base": 30,
+  "name": "Cults and religions of the Nordlings",
+  "quest": 0
+ },
+ "it_scroll_219": {
+  "base": 30,
+  "name": "Basics of Alchemy",
+  "quest": 0
+ },
+ "it_scroll_220": {
+  "base": 30,
+  "name": "Ars Amandi",
+  "quest": 0
+ },
+ "it_scroll_221": {
+  "base": 30,
+  "name": "The Aftermath of the War",
+  "quest": 0
+ },
+ "it_scroll_222": {
+  "base": 30,
+  "name": "Fairytales and Stories",
+  "quest": 0
+ },
+ "it_scroll_223": {
+  "base": 30,
+  "name": "Ballads",
+  "quest": 0
+ },
+ "it_scroll_224": {
+  "base": 30,
+  "name": "Diary of a Dice Collector",
+  "quest": 0
+ },
+ "it_scroll_225": {
+  "base": 30,
+  "name": "Disenchanting a Striga",
+  "quest": 0
+ },
+ "it_scroll_226": {
+  "base": 30,
+  "name": "Elder Blood",
+  "quest": 0
+ },
+ "it_scroll_227": {
+  "base": 30,
+  "name": "Ithlinne's Prophecy",
+  "quest": 0
+ },
+ "it_scroll_228": {
+  "base": 30,
+  "name": "The Double Cross of Alzur",
+  "quest": 0
+ },
+ "it_scroll_229": {
+  "base": 30,
+  "name": "The Rivian Pogrom",
+  "quest": 0
+ },
+ "it_scroll_230": {
+  "base": 30,
+  "name": "The Temptation of Fire",
+  "quest": 0
+ },
+ "it_scroll_231": {
+  "base": 30,
+  "name": "Hymns of Madness and Despair",
+  "quest": 0
+ },
+ "it_scroll_301": {
+  "base": 30,
+  "name": "Swamp Monsters",
+  "quest": 0
+ },
+ "it_scroll_302": {
+  "base": 30,
+  "name": "A Description of the Vodyanoi or the Fishpeople",
+  "quest": 0
+ },
+ "it_scroll_303": {
+  "base": 30,
+  "name": "Ornithosaurs",
+  "quest": 0
+ },
+ "it_scroll_304": {
+  "base": 30,
+  "name": "Abourt barghests",
+  "quest": 0
+ },
+ "it_scroll_305": {
+  "base": 30,
+  "name": "Specters, Wraiths, and the Damned",
+  "quest": 0
+ },
+ "it_scroll_306": {
+  "base": 30,
+  "name": "Vampires: facts and myths",
+  "quest": 0
+ },
+ "it_scroll_307": {
+  "base": 30,
+  "name": "The Wonderful World of Insectoids",
+  "quest": 0
+ },
+ "it_scroll_308": {
+  "base": 30,
+  "name": "Tome of Fear and Loathing, volume I",
+  "quest": 0
+ },
+ "it_scroll_309": {
+  "base": 30,
+  "name": "Tome of Fear and Loathing, volume II",
+  "quest": 0
+ },
+ "it_scroll_310": {
+  "base": 30,
+  "name": "On Curses and the Cursed",
+  "quest": 0
+ },
+ "it_scroll_311": {
+  "base": 30,
+  "name": "Experiment Notes",
+  "quest": 0
+ },
+ "it_scroll_312": {
+  "base": 30,
+  "name": "Bigger Brothers",
+  "quest": 0
+ },
+ "it_scroll_313": {
+  "base": 30,
+  "name": "The Book of Animals",
+  "quest": 0
+ },
+ "it_scroll_314": {
+  "base": 30,
+  "name": "The Last Wish",
+  "quest": 0
+ },
+ "it_scroll_315": {
+  "base": 30,
+  "name": "The Frightener",
+  "quest": 0
+ },
+ "it_scroll_316": {
+  "base": 30,
+  "name": "The Road of No Return",
+  "quest": 0
+ },
+ "it_scroll_317": {
+  "base": 30,
+  "name": "The Disease of Civilization",
+  "quest": 0
+ },
+ "it_scroll_318": {
+  "base": 30,
+  "name": "To Animate the Inanimate",
+  "quest": 0
+ },
+ "it_scroll_319": {
+  "base": 30,
+  "name": "Physiologus",
+  "quest": 0
+ },
+ "it_scroll_325": {
+  "base": 30,
+  "name": "On Field Plants",
+  "quest": 0
+ },
+ "it_scroll_326": {
+  "base": 30,
+  "name": "On Subterranean Plants",
+  "quest": 0
+ },
+ "it_scroll_327": {
+  "base": 30,
+  "name": "On Swamp Plants",
+  "quest": 0
+ },
+ "it_scroll_328": {
+  "base": 30,
+  "name": "On Ritual Plants",
+  "quest": 0
+ },
+ "it_scroll_329": {
+  "base": 30,
+  "name": "On Plants of Barren Lands",
+  "quest": 0
+ },
+ "it_scroll_330": {
+  "base": 30,
+  "name": "Feainnewedd",
+  "quest": 0
+ },
+ "it_scroll_331": {
+  "base": 30,
+  "name": "Druids' herbarium",
+  "quest": 0
+ },
+ "it_scroll_332": {
+  "base": 30,
+  "name": "Minor Book of Minerals",
+  "quest": 0
+ },
+ "it_scroll_333": {
+  "base": 30,
+  "name": "Major Book of Minerals",
+  "quest": 0
+ },
+ "it_scroll_334": {
+  "base": 30,
+  "name": "The Barghest Contract",
+  "quest": 0
+ },
+ "it_scroll_335": {
+  "base": 30,
+  "name": "The Drowner Contract",
+  "quest": 0
+ },
+ "it_scroll_336": {
+  "base": 30,
+  "name": "The Ghoul Contract",
+  "quest": 0
+ },
+ "it_scroll_337": {
+  "base": 30,
+  "name": "The Drowned Dead Contract",
+  "quest": 0
+ },
+ "it_scroll_338": {
+  "base": 30,
+  "name": "The Echinops Contract",
+  "quest": 0
+ },
+ "it_scroll_339": {
+  "base": 30,
+  "name": "The Graveir Contract",
+  "quest": 0
+ },
+ "it_scroll_340": {
+  "base": 30,
+  "name": "The Wolf Contract",
+  "quest": 0
+ },
+ "it_scroll_341": {
+  "base": 30,
+  "name": "The Alghoul Contract",
+  "quest": 0
+ },
+ "it_scroll_342": {
+  "base": 30,
+  "name": "The Archespor Contract",
+  "quest": 0
+ },
+ "it_scroll_343": {
+  "base": 30,
+  "name": "The Cemetaur Contract",
+  "quest": 0
+ },
+ "it_scroll_344": {
+  "base": 30,
+  "name": "The Cockatrice Contract",
+  "quest": 0
+ },
+ "it_scroll_345": {
+  "base": 30,
+  "name": "The Fleder Contract",
+  "quest": 0
+ },
+ "it_scroll_346": {
+  "base": 30,
+  "name": "The Ghoul Contract",
+  "quest": 0
+ },
+ "it_scroll_347": {
+  "base": 30,
+  "name": "The Kikimore Contract",
+  "quest": 0
+ },
+ "it_scroll_348": {
+  "base": 30,
+  "name": "The Basilisk Contract",
+  "quest": 0
+ },
+ "it_scroll_349": {
+  "base": 30,
+  "name": "The Dog Contract",
+  "quest": 0
+ },
+ "it_scroll_350": {
+  "base": 30,
+  "name": "The Wyvern Eggs Contract",
+  "quest": 0
+ },
+ "it_scroll_351": {
+  "base": 30,
+  "name": "The Devourers Contract",
+  "quest": 0
+ },
+ "it_scroll_352": {
+  "base": 30,
+  "name": "The Giant Centipedes Contract",
+  "quest": 0
+ },
+ "it_scroll_353": {
+  "base": 30,
+  "name": "The Wyverns Contract",
+  "quest": 0
+ },
+ "it_scroll_354": {
+  "base": 30,
+  "name": "The Alps Contract",
+  "quest": 0
+ },
+ "it_scroll_355": {
+  "base": 30,
+  "name": "The Bloedzuigers Contract",
+  "quest": 0
+ },
+ "it_scroll_356": {
+  "base": 30,
+  "name": "The Bruxa Contract",
+  "quest": 0
+ },
+ "it_scroll_357": {
+  "base": 30,
+  "name": "The Garkain Contract",
+  "quest": 0
+ },
+ "it_scroll_358": {
+  "base": 30,
+  "name": "The Wraith Contract",
+  "quest": 0
+ },
+ "it_sflail_001": {
+  "base": 8,
+  "name": "Chain Mace",
+  "quest": 0
+ },
+ "it_sflail_002": {
+  "base": 8,
+  "name": "Kourbash",
+  "quest": 0
+ },
+ "it_shield_001": {
+  "base": 24,
+  "name": "Shield of Temeria",
+  "quest": 0
+ },
+ "it_shield_002": {
+  "base": 24,
+  "name": "Shield of the Order commanders",
+  "quest": 0
+ },
+ "it_shield_003": {
+  "base": 24,
+  "name": "Shield of the Order knights",
+  "quest": 0
+ },
+ "it_shield_004": {
+  "base": 24,
+  "name": "Shield of the Order master.",
+  "quest": 0
+ },
+ "it_shield_005": {
+  "base": 24,
+  "name": "Dwarven shield",
+  "quest": 0
+ },
+ "it_shield_006": {
+  "base": 24,
+  "name": "Shield (Order Leader 3)",
+  "quest": 0
+ },
+ "it_shield_007": {
+  "base": 24,
+  "name": "Shield (Scoiatael Armored Dwarf)",
+  "quest": 0
+ },
+ "it_sling_001": {
+  "base": 14,
+  "name": "Sling (Bandit)",
+  "quest": 0
+ },
+ "it_spell_001": {
+  "base": 35,
+  "name": "Spell",
+  "quest": 0
+ },
+ "it_spell_002": {
+  "base": 35,
+  "name": "Spell",
+  "quest": 0
+ },
+ "it_spell_003": {
+  "base": 35,
+  "name": "Spell",
+  "quest": 0
+ },
+ "it_stlswd_001": {
+  "base": 1,
+  "name": "Witcher Steel Sword",
+  "quest": 0
+ },
+ "it_stlswd_004": {
+  "base": 1,
+  "name": "Witchers' Steel Sword",
+  "quest": 0
+ },
+ "it_stlswd_005": {
+  "base": 1,
+  "name": "Temerian Steel Sword",
+  "quest": 0
+ },
+ "it_stlswd_006": {
+  "base": 1,
+  "name": "Rusty Sword",
+  "quest": 0
+ },
+ "it_stlswd_007": {
+  "base": 1,
+  "name": "Sword Of The Order",
+  "quest": 0
+ },
+ "it_stlswd_008": {
+  "base": 1,
+  "name": "Illegal Sword",
+  "quest": 0
+ },
+ "it_stlswd_009": {
+  "base": 1,
+  "name": "Holy Sword Of The Order",
+  "quest": 0
+ },
+ "it_stlswd_010": {
+  "base": 1,
+  "name": "Elven Sword From Blue Mountains",
+  "quest": 0
+ },
+ "it_stlswd_011": {
+  "base": 1,
+  "name": "Ceremonial Sword From Deithwen",
+  "quest": 0
+ },
+ "it_stlswd_012": {
+  "base": 1,
+  "name": "Rune Sihill From Mahakam",
+  "quest": 0
+ },
+ "it_stlswd_013": {
+  "base": 1,
+  "name": "Rune Sword From Dol Blathana",
+  "quest": 0
+ },
+ "it_stlswd_014": {
+  "base": 1,
+  "name": "Harvall",
+  "quest": 0
+ },
+ "it_stlswd_015": {
+  "base": 1,
+  "name": "Gwalhir",
+  "quest": 0
+ },
+ "it_stlswd_016": {
+  "base": 1,
+  "name": "D'yaebl",
+  "quest": 0
+ },
+ "it_stlswd_017": {
+  "base": 1,
+  "name": "Ard'aenye",
+  "quest": 0
+ },
+ "it_stlswd_018": {
+  "base": 1,
+  "name": "Sword of Vaclav's grandfather",
+  "quest": 0
+ },
+ "it_stlswd_099": {
+  "base": 1,
+  "name": "Ard'aenye",
+  "quest": 0
+ },
+ "it_stlswd_bbb": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_bby": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_byy": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_rbb": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_rby": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_rrb": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_rrr": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_yrr": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_yyr": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_stlswd_yyy": {
+  "base": 1,
+  "name": "Meteorite Sword",
+  "quest": 0
+ },
+ "it_svswd_001": {
+  "base": 2,
+  "name": "Witcher Silver Sword",
+  "quest": 0
+ },
+ "it_svswd_002": {
+  "base": 2,
+  "name": "Witcher Silver Sword",
+  "quest": 0
+ },
+ "it_svswd_003": {
+  "base": 2,
+  "name": "Witcher Silver Sword",
+  "quest": 0
+ },
+ "it_svswd_004": {
+  "base": 2,
+  "name": "Witcher Silver Sword",
+  "quest": 0
+ },
+ "it_svswd_005": {
+  "base": 2,
+  "name": "Aerondight",
+  "quest": 0
+ },
+ "it_svswd_006": {
+  "base": 2,
+  "name": "Moonblade",
+  "quest": 0
+ },
+ "it_svswd_eee": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_ees": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_ess": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_mee": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_mme": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_mmm": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_sme": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_smm": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_ssm": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_svswd_sss": {
+  "base": 2,
+  "name": "Rune Sword",
+  "quest": 0
+ },
+ "it_test_skin": {
+  "base": 0,
+  "name": "",
+  "quest": 0
+ },
+ "it_test_store0": {
+  "base": 0,
+  "name": "TestItem",
+  "quest": 0
+ },
+ "it_test_store1": {
+  "base": 1,
+  "name": "TestWeapon",
+  "quest": 0
+ },
+ "it_test_store2": {
+  "base": 22,
+  "name": "TestCustomPrice",
+  "quest": 0
+ },
+ "it_thnarms_001": {
+  "base": 15,
+  "name": "Thrown Arms (Orion)",
+  "quest": 0
+ },
+ "it_thnarms_002": {
+  "base": 15,
+  "name": "Thrown Arms (Jinni Bottle)",
+  "quest": 0
+ },
+ "it_thnarms_003": {
+  "base": 15,
+  "name": "Thrown Arms (Jinni Bottle)",
+  "quest": 0
+ },
+ "it_thnarms_004": {
+  "base": 42,
+  "name": "Thrown Thorn",
+  "quest": 0
+ },
+ "it_torch_001": {
+  "base": 0,
+  "name": "Torch",
+  "quest": 0
+ },
+ "it_torch_002": {
+  "base": 0,
+  "name": "Torch",
+  "quest": 0
+ },
+ "it_trophy_001": {
+  "base": 39,
+  "name": "Head Of Vodyanoi Priest",
+  "quest": 0
+ },
+ "it_trophy_002": {
+  "base": 39,
+  "name": "Alghoul's Head",
+  "quest": 0
+ },
+ "it_trophy_003": {
+  "base": 39,
+  "name": "Cockatrice's Head",
+  "quest": 0
+ },
+ "it_trophy_004": {
+  "base": 39,
+  "name": "Wolf's Head",
+  "quest": 0
+ },
+ "it_trophy_005": {
+  "base": 39,
+  "name": "Head Of A Wyvern Female",
+  "quest": 0
+ },
+ "it_trophy_006": {
+  "base": 39,
+  "name": "Cemetaur's Head",
+  "quest": 0
+ },
+ "it_trophy_007": {
+  "base": 39,
+  "name": "Archespore's Head",
+  "quest": 0
+ },
+ "it_trophy_008": {
+  "base": 39,
+  "name": "Garkain's Head",
+  "quest": 0
+ },
+ "it_trophy_009": {
+  "base": 39,
+  "name": "Bruxa's Head",
+  "quest": 0
+ },
+ "it_trophy_010": {
+  "base": 39,
+  "name": "DROWNED DEAD'S HEAD",
+  "quest": 0
+ },
+ "it_uniq0": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_upgrcomp_001": {
+  "base": 34,
+  "name": "Red Meteorite",
+  "quest": 0
+ },
+ "it_upgrcomp_002": {
+  "base": 34,
+  "name": "Blue Meteorite",
+  "quest": 0
+ },
+ "it_upgrcomp_003": {
+  "base": 34,
+  "name": "Yellow Meteorite",
+  "quest": 0
+ },
+ "it_upgrcomp_004": {
+  "base": 34,
+  "name": "Sun Rune",
+  "quest": 0
+ },
+ "it_upgrcomp_005": {
+  "base": 34,
+  "name": "Earth Rune",
+  "quest": 0
+ },
+ "it_upgrcomp_006": {
+  "base": 34,
+  "name": "Moon Rune",
+  "quest": 0
+ },
+ "it_v_quest_199": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_valch0": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_valch1": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_valch2": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_valch3": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_valch4": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_valch5": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_valgul": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_valp": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_varche": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vbarg": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vbasil": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vbhead": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vbloed": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vbook1": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vbook2": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vbook3": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vbook4": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vbook5": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vbrux": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vcment": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vcoca": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vdog": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vdrow": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vechin": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vexpfs": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vexpst": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vfled": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vfood1": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vfood2": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vfood3": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vfood4": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vfood5": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vgarderoba": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vgark": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vghoul": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vgrav": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vhag": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vifrit": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vkikim": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vogar": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vpolu": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vpotions": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vskolo": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_0_0": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_0_1": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_0_2": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_0_3": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_0_4": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_0_5": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_1_1": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_1_2": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_1_3": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_1_4": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vtreas_1_5": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vuniq0": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vuniq1": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vuniq2": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vuniq3": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vuniq4": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vuniq5": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vvetala": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vvod": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_vwardrobe": {
+  "base": 45,
+  "name": "Virtual Item test",
+  "quest": 0
+ },
+ "it_vwolf": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_witcharm_001": {
+  "base": 29,
+  "name": "Trews And Shirt",
+  "quest": 0
+ },
+ "it_witcharm_002": {
+  "base": 29,
+  "name": "Studded Leather Jacket",
+  "quest": 0
+ },
+ "it_witcharm_003": {
+  "base": 29,
+  "name": "Masterwork Leather Jacket",
+  "quest": 0
+ },
+ "it_witcharm_004": {
+  "base": 29,
+  "name": "Raven's Armor",
+  "quest": 0
+ },
+ "it_witcharm_005": {
+  "base": 29,
+  "name": "Raven's Armor Of The Order",
+  "quest": 0
+ },
+ "it_witcharm_006": {
+  "base": 29,
+  "name": "Raven's Armor Of The Elves",
+  "quest": 0
+ },
+ "it_witcharm_007": {
+  "base": 29,
+  "name": "Armor 5c",
+  "quest": 0
+ },
+ "it_work_020": {
+  "base": 53,
+  "name": "Axe",
+  "quest": 0
+ },
+ "it_wrait": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "it_wyv": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "key_l04_g35_01": {
+  "base": 40,
+  "name": "Key to the crypt",
+  "quest": 1
+ },
+ "key_l04_g35_02": {
+  "base": 40,
+  "name": "Key to Rascal's Hideout",
+  "quest": 1
+ },
+ "key_l04_g35_03": {
+  "base": 40,
+  "name": "Old Key",
+  "quest": 1
+ },
+ "key_zeugl": {
+  "base": 40,
+  "name": "Key to the sewers under Merchants' Quarters",
+  "quest": 1
+ },
+ "loyza_axe": {
+  "base": 3,
+  "name": "Yaren Bolt's Axe",
+  "quest": 0
+ },
+ "m0_it_amm_01": {
+  "base": 16,
+  "name": "Echinops spike",
+  "quest": 0
+ },
+ "m0_it_bow_01": {
+  "base": 7,
+  "name": "Echinops spike",
+  "quest": 0
+ },
+ "m0_it_dgr01": {
+  "base": 17,
+  "name": "Temerian Iron Dagger",
+  "quest": 0
+ },
+ "m0_it_dgr02": {
+  "base": 17,
+  "name": "Temerian Steel Dagger",
+  "quest": 0
+ },
+ "m0_it_dgr03": {
+  "base": 17,
+  "name": "Assassin Dagger",
+  "quest": 0
+ },
+ "m0_it_dgr04": {
+  "base": 17,
+  "name": "Mahakam Dagger",
+  "quest": 0
+ },
+ "m0_it_dgr05": {
+  "base": 17,
+  "name": "Deithwen Dagger",
+  "quest": 0
+ },
+ "m0_it_dgr06": {
+  "base": 17,
+  "name": "Rune Dagger From Mahakam",
+  "quest": 0
+ },
+ "m0_it_drink00": {
+  "base": 48,
+  "name": "Bottled Water",
+  "quest": 0
+ },
+ "m0_it_drink01": {
+  "base": 48,
+  "name": "Vizimean Champion",
+  "quest": 0
+ },
+ "m0_it_drink02": {
+  "base": 48,
+  "name": "Toussaint Red",
+  "quest": 0
+ },
+ "m0_it_drink03": {
+  "base": 48,
+  "name": "Local Pepperovka",
+  "quest": 0
+ },
+ "m0_it_drink04": {
+  "base": 48,
+  "name": "Dwarven Spirit",
+  "quest": 0
+ },
+ "m0_it_drink05": {
+  "base": 48,
+  "name": "Wyvern Blood Spirit",
+  "quest": 0
+ },
+ "m0_it_empty01": {
+  "base": 52,
+  "name": "\"Empty\" Item",
+  "quest": 0
+ },
+ "m0_it_food01": {
+  "base": 44,
+  "name": "Honeycomb",
+  "quest": 0
+ },
+ "m0_it_food02": {
+  "base": 44,
+  "name": "Mutton Leg",
+  "quest": 0
+ },
+ "m0_it_food03": {
+  "base": 44,
+  "name": "Bread",
+  "quest": 0
+ },
+ "m0_it_food04": {
+  "base": 44,
+  "name": "Strawberries",
+  "quest": 0
+ },
+ "m0_it_food05": {
+  "base": 44,
+  "name": "Cheese",
+  "quest": 0
+ },
+ "m0_it_gem01": {
+  "base": 32,
+  "name": "Sapphire",
+  "quest": 0
+ },
+ "m0_it_gold01": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "m0_it_gold02": {
+  "base": 31,
+  "name": "Gold",
+  "quest": 0
+ },
+ "m0_it_grease01": {
+  "base": 46,
+  "name": "Crinfrid Oil",
+  "quest": 0
+ },
+ "m0_it_grease02": {
+  "base": 46,
+  "name": "Anti-Scavenger Wax",
+  "quest": 0
+ },
+ "m0_it_grease03": {
+  "base": 46,
+  "name": "Whetstone For The Steel Sword",
+  "quest": 0
+ },
+ "m0_it_grease04": {
+  "base": 46,
+  "name": "Grindstone",
+  "quest": 0
+ },
+ "m0_it_ingr01": {
+  "base": 33,
+  "name": "Cockatrice Feather",
+  "quest": 0
+ },
+ "m0_it_ingr02": {
+  "base": 33,
+  "name": "Death Dust",
+  "quest": 0
+ },
+ "m0_it_ingr03": {
+  "base": 33,
+  "name": "Goose Fat",
+  "quest": 0
+ },
+ "m0_it_ingr04": {
+  "base": 33,
+  "name": "Bear Fat",
+  "quest": 0
+ },
+ "m0_it_ingr05": {
+  "base": 33,
+  "name": "Ginatz Acid",
+  "quest": 0
+ },
+ "m0_it_ingr06": {
+  "base": 33,
+  "name": "Naezanian Salts",
+  "quest": 0
+ },
+ "m0_it_ingr07": {
+  "base": 33,
+  "name": "White Vinegar",
+  "quest": 0
+ },
+ "m0_it_ingr08": {
+  "base": 33,
+  "name": "Cadaverine",
+  "quest": 0
+ },
+ "m0_it_ingr09": {
+  "base": 33,
+  "name": "Spores",
+  "quest": 0
+ },
+ "m0_it_ingr10": {
+  "base": 33,
+  "name": "Abomination Lymph",
+  "quest": 0
+ },
+ "m0_it_ingr11": {
+  "base": 33,
+  "name": "Echinops Rootstock",
+  "quest": 0
+ },
+ "m0_it_ingr12": {
+  "base": 33,
+  "name": "Ghoul Blood",
+  "quest": 0
+ },
+ "m0_it_ingr13": {
+  "base": 33,
+  "name": "Ornithosaur Eye",
+  "quest": 0
+ },
+ "m0_it_ingr14": {
+  "base": 33,
+  "name": "Ectoplasm",
+  "quest": 0
+ },
+ "m0_it_ingr15": {
+  "base": 33,
+  "name": "Drowner Brain Tissue",
+  "quest": 0
+ },
+ "m0_it_ingr16": {
+  "base": 33,
+  "name": "Beast Fangs",
+  "quest": 0
+ },
+ "m0_it_ingr17": {
+  "base": 33,
+  "name": "Beast Liver",
+  "quest": 0
+ },
+ "m0_it_ingr18": {
+  "base": 33,
+  "name": "Venomous Glands",
+  "quest": 0
+ },
+ "m0_it_ingr19": {
+  "base": 33,
+  "name": "Toxin",
+  "quest": 0
+ },
+ "m0_it_ingr20": {
+  "base": 33,
+  "name": "Tracheae",
+  "quest": 0
+ },
+ "m0_it_ingr21": {
+  "base": 33,
+  "name": "Alp Fangs",
+  "quest": 0
+ },
+ "m0_it_key01": {
+  "base": 40,
+  "name": "Key to the hideout",
+  "quest": 1
+ },
+ "m0_it_laxe01": {
+  "base": 3,
+  "name": "Axe",
+  "quest": 0
+ },
+ "m0_it_laxe02": {
+  "base": 3,
+  "name": "Two-Handed Steel Axe",
+  "quest": 0
+ },
+ "m0_it_magring01": {
+  "base": 21,
+  "name": "Red Ribbon",
+  "quest": 0
+ },
+ "m0_it_natural01": {
+  "base": 28,
+  "name": "Natural weapon",
+  "quest": 0
+ },
+ "m0_it_natural02": {
+  "base": 28,
+  "name": "Natural weapon",
+  "quest": 0
+ },
+ "m0_it_natural03": {
+  "base": 28,
+  "name": "Natural weapon Zeugl",
+  "quest": 0
+ },
+ "m0_it_natural04": {
+  "base": 28,
+  "name": "Natural weapon Tentacle Zeugl",
+  "quest": 0
+ },
+ "m0_it_natural05": {
+  "base": 28,
+  "name": "",
+  "quest": 0
+ },
+ "m0_it_natural06": {
+  "base": 28,
+  "name": "Natural weapon",
+  "quest": 0
+ },
+ "m0_it_neckl01": {
+  "base": 20,
+  "name": "Gold Necklace",
+  "quest": 0
+ },
+ "m0_it_other01": {
+  "base": 45,
+  "name": "Red Roses",
+  "quest": 0
+ },
+ "m0_it_other02": {
+  "base": 45,
+  "name": "Tulips",
+  "quest": 0
+ },
+ "m0_it_other03": {
+  "base": 45,
+  "name": "Red Shawl",
+  "quest": 0
+ },
+ "m0_it_other04": {
+  "base": 45,
+  "name": "Golden Women's Gloves",
+  "quest": 0
+ },
+ "m0_it_other05": {
+  "base": 45,
+  "name": "Wolf Skin",
+  "quest": 0
+ },
+ "m0_it_other06": {
+  "base": 45,
+  "name": "Fleder Fangs",
+  "quest": 0
+ },
+ "m0_it_other07": {
+  "base": 45,
+  "name": "Flint",
+  "quest": 0
+ },
+ "m0_it_potion01": {
+  "base": 22,
+  "name": "White Gull",
+  "quest": 0
+ },
+ "m0_it_potion02": {
+  "base": 22,
+  "name": "Tawny Owl",
+  "quest": 0
+ },
+ "m0_it_potion03": {
+  "base": 22,
+  "name": "Swallow",
+  "quest": 0
+ },
+ "m0_it_potion04": {
+  "base": 22,
+  "name": "White Honey",
+  "quest": 0
+ },
+ "m0_it_potion05": {
+  "base": 22,
+  "name": "Cat",
+  "quest": 0
+ },
+ "m0_it_potion06": {
+  "base": 22,
+  "name": "Blizzard",
+  "quest": 0
+ },
+ "m0_it_potion07": {
+  "base": 22,
+  "name": "Bindweed",
+  "quest": 0
+ },
+ "m0_it_ring01": {
+  "base": 23,
+  "name": "Silver Ring",
+  "quest": 0
+ },
+ "m0_it_ring02": {
+  "base": 23,
+  "name": "Gold Ring",
+  "quest": 0
+ },
+ "m0_it_ring03": {
+  "base": 23,
+  "name": "Gold Signet Ring",
+  "quest": 0
+ },
+ "m0_it_ring04": {
+  "base": 23,
+  "name": "Signet Ring Of Eternal Fire",
+  "quest": 0
+ },
+ "m0_it_saxe01": {
+  "base": 12,
+  "name": "Small Axe",
+  "quest": 0
+ },
+ "m0_it_saxe02": {
+  "base": 12,
+  "name": "Temerian Iron Axe",
+  "quest": 0
+ },
+ "m0_it_saxe03": {
+  "base": 12,
+  "name": "Temerian Steel Axe",
+  "quest": 0
+ },
+ "m0_it_saxe04": {
+  "base": 12,
+  "name": "Dwarven axe from Carbon",
+  "quest": 0
+ },
+ "m0_it_saxe05": {
+  "base": 12,
+  "name": "Dwarven Axe From Carbon",
+  "quest": 0
+ },
+ "m0_it_saxe06": {
+  "base": 12,
+  "name": "Dwarven Axe From Mahakam",
+  "quest": 0
+ },
+ "m0_it_saxe07": {
+  "base": 12,
+  "name": "Rune Axe From Carbon",
+  "quest": 0
+ },
+ "m0_it_saxe08": {
+  "base": 12,
+  "name": "Holy Axe Of The Order",
+  "quest": 0
+ },
+ "m0_it_sclub03": {
+  "base": 19,
+  "name": "Order Battle Hammer",
+  "quest": 0
+ },
+ "m0_it_sclub04": {
+  "base": 19,
+  "name": "Holy Battle Hammer Of The Order",
+  "quest": 0
+ },
+ "m0_it_sclub05": {
+  "base": 19,
+  "name": "Mahakam Battle Hammer",
+  "quest": 0
+ },
+ "m0_it_sclub06": {
+  "base": 19,
+  "name": "Stone Hammer",
+  "quest": 0
+ },
+ "m0_it_sclub07": {
+  "base": 19,
+  "name": "Light Club",
+  "quest": 0
+ },
+ "m0_it_sclub10": {
+  "base": 19,
+  "name": "Torch",
+  "quest": 0
+ },
+ "m0_it_scroll01": {
+  "base": 30,
+  "name": "Swamp Monsters",
+  "quest": 0
+ },
+ "m0_it_scroll02": {
+  "base": 30,
+  "name": "Book of Swallow",
+  "quest": 0
+ },
+ "m0_it_scroll03": {
+  "base": 30,
+  "name": "Book of Tawny Owl",
+  "quest": 0
+ },
+ "m0_it_scroll04": {
+  "base": 30,
+  "name": "On Field Plants",
+  "quest": 0
+ },
+ "m0_it_shield01": {
+  "base": 24,
+  "name": "Shield of Temeria",
+  "quest": 0
+ },
+ "m0_it_shield02": {
+  "base": 24,
+  "name": "Shield of the Order commanders",
+  "quest": 0
+ },
+ "m0_it_shield03": {
+  "base": 24,
+  "name": "Shield of the Order knights",
+  "quest": 0
+ },
+ "m0_it_shield04": {
+  "base": 24,
+  "name": "Shield of the Order master.",
+  "quest": 0
+ },
+ "m0_it_spell01": {
+  "base": 35,
+  "name": "Spell",
+  "quest": 0
+ },
+ "m0_it_spell02": {
+  "base": 35,
+  "name": "Spell",
+  "quest": 0
+ },
+ "m0_it_spell03": {
+  "base": 35,
+  "name": "Spell",
+  "quest": 0
+ },
+ "m0_it_stlswd01": {
+  "base": 1,
+  "name": "Witcher Steel Sword",
+  "quest": 0
+ },
+ "m0_it_stlswd02": {
+  "base": 1,
+  "name": "Temerian Steel Sword",
+  "quest": 0
+ },
+ "m0_it_stlswd03": {
+  "base": 1,
+  "name": "Rusty Sword",
+  "quest": 0
+ },
+ "m0_it_stlswd04": {
+  "base": 1,
+  "name": "Sword Of The Order",
+  "quest": 0
+ },
+ "m0_it_stlswd05": {
+  "base": 1,
+  "name": "Rune Sihill From Mahakam",
+  "quest": 0
+ },
+ "m0_it_stlswd06": {
+  "base": 1,
+  "name": "Rune Sword From Dol Blathana",
+  "quest": 0
+ },
+ "m0_it_svswd01": {
+  "base": 2,
+  "name": "Witcher Silver Sword",
+  "quest": 0
+ },
+ "m0_it_torch01": {
+  "base": 0,
+  "name": "Torch",
+  "quest": 0
+ },
+ "m0_it_upgr01": {
+  "base": 34,
+  "name": "Red Meteorite",
+  "quest": 0
+ },
+ "m0_it_upgr02": {
+  "base": 34,
+  "name": "Blue Meteorite",
+  "quest": 0
+ },
+ "m0_it_upgr03": {
+  "base": 34,
+  "name": "Yellow Meteorite",
+  "quest": 0
+ },
+ "m0_it_upgr04": {
+  "base": 34,
+  "name": "Sun Rune",
+  "quest": 0
+ },
+ "m0_it_upgr05": {
+  "base": 34,
+  "name": "Earth Rune",
+  "quest": 0
+ },
+ "m0_it_upgr06": {
+  "base": 34,
+  "name": "Moon Rune",
+  "quest": 0
+ },
+ "m0_it_water01": {
+  "base": 48,
+  "name": "Bottled Water",
+  "quest": 0
+ },
+ "m0_it_witcharm01": {
+  "base": 29,
+  "name": "Studded Leather Jacket",
+  "quest": 0
+ },
+ "m0_it_witcharm02": {
+  "base": 29,
+  "name": "Studded Leather Jacket",
+  "quest": 0
+ },
+ "m0_it_witcharm03": {
+  "base": 29,
+  "name": "Masterwork Leather Jacket",
+  "quest": 0
+ },
+ "m0_it_witcharm04": {
+  "base": 29,
+  "name": "Raven's Armor",
+  "quest": 0
+ },
+ "nvpotion": {
+  "base": 10,
+  "name": "NVPotion",
+  "quest": 0
+ },
+ "piescwiedzmina": {
+  "base": 36,
+  "name": "Witcher's Fist",
+  "quest": 0
+ },
+ "plot": {
+  "base": 0,
+  "name": "",
+  "quest": 0
+ },
+ "pochodnia001": {
+  "base": 0,
+  "name": "Torch",
+  "quest": 0
+ },
+ "q2125": {
+  "base": 48,
+  "name": "Very Old Wine",
+  "quest": 0
+ },
+ "rose": {
+  "base": 28,
+  "name": "R�a",
+  "quest": null
+ },
+ "sp-rng_amm": {
+  "base": 51,
+  "name": "sp-rng-amm",
+  "quest": 0
+ },
+ "t_dagger1": {
+  "base": 17,
+  "name": "Crossbow",
+  "quest": 0
+ },
+ "t_elixir1": {
+  "base": 49,
+  "name": "Toporeck",
+  "quest": 0
+ },
+ "t_flail1": {
+  "base": 5,
+  "name": "Klubowicz",
+  "quest": 0
+ },
+ "t_halberd1": {
+  "base": 9,
+  "name": "Camel Trophy",
+  "quest": 0
+ },
+ "t_laxe1": {
+  "base": 3,
+  "name": "test_arrow",
+  "quest": 0
+ },
+ "t_lspear1": {
+  "base": 32,
+  "name": "test_bow",
+  "quest": 0
+ },
+ "t_lsword1": {
+  "base": 11,
+  "name": "Quest Item",
+  "quest": 0
+ },
+ "t_medalion1": {
+  "base": 50,
+  "name": "qaQuestItem",
+  "quest": 0
+ },
+ "t_qsza1": {
+  "base": 6,
+  "name": "test_shield",
+  "quest": 0
+ },
+ "t_saxe1": {
+  "base": 12,
+  "name": "test_sword",
+  "quest": 0
+ },
+ "t_sclub1": {
+  "base": 21,
+  "name": "TestVirtualObj",
+  "quest": 0
+ },
+ "t_trophy1": {
+  "base": 51,
+  "name": "SpellRanged",
+  "quest": 0
+ },
+ "test_arrow": {
+  "base": 16,
+  "name": "SZT",
+  "quest": 0
+ },
+ "test_bow": {
+  "base": 7,
+  "name": "Mikstura z jaj szczura",
+  "quest": 0
+ },
+ "test_it_quest": {
+  "base": 40,
+  "name": "Ba bla bal",
+  "quest": 0
+ },
+ "test_questitem": {
+  "base": 40,
+  "name": "Halab",
+  "quest": 0
+ },
+ "test_shield": {
+  "base": 24,
+  "name": "Too Poor",
+  "quest": 0
+ },
+ "test_sword": {
+  "base": 1,
+  "name": "Spear of Destiny",
+  "quest": 0
+ },
+ "test_vitem": {
+  "base": 0,
+  "name": "Zajebiscie wielki miecz",
+  "quest": 0
+ },
+ "tt_spellranged": {
+  "base": 50,
+  "name": "SpellRanged",
+  "quest": 0
+ },
+ "virt_it_test": {
+  "base": 45,
+  "name": "Virtual: Dice box (5%)",
+  "quest": 0
+ },
+ "vit_salam01": {
+  "base": 45,
+  "name": "",
+  "quest": 0
+ },
+ "w_h_alchemy": {
+  "base": 53,
+  "name": "",
+  "quest": 0
+ },
+ "w_h_alchemy2": {
+  "base": 53,
+  "name": "",
+  "quest": 0
+ },
+ "w_h_butcher": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_cleaning": {
+  "base": 53,
+  "name": "w_h_cleaning item",
+  "quest": 0
+ },
+ "w_h_clown2": {
+  "base": 53,
+  "name": "",
+  "quest": 0
+ },
+ "w_h_clown3": {
+  "base": 53,
+  "name": "Dice (for w_h_dice)",
+  "quest": 0
+ },
+ "w_h_dice": {
+  "base": 53,
+  "name": "w_h_drink",
+  "quest": 0
+ },
+ "w_h_drink": {
+  "base": 43,
+  "name": "w_h_eat",
+  "quest": 0
+ },
+ "w_h_drum": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_eat": {
+  "base": 53,
+  "name": "Lute",
+  "quest": 0
+ },
+ "w_h_eat1": {
+  "base": 53,
+  "name": "Lute",
+  "quest": 0
+ },
+ "w_h_eat2": {
+  "base": 53,
+  "name": "Lute",
+  "quest": 0
+ },
+ "w_h_eat3": {
+  "base": 53,
+  "name": "Lute",
+  "quest": 0
+ },
+ "w_h_eat4": {
+  "base": 53,
+  "name": "Lute",
+  "quest": 0
+ },
+ "w_h_eat5": {
+  "base": 53,
+  "name": "Lute",
+  "quest": 0
+ },
+ "w_h_feed": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_fishing": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_hammer": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_hammerbig": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_meat": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_playflute": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_playlute": {
+  "base": 43,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_poker": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_sharpener": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_sheat": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_swordforge2": {
+  "base": 53,
+  "name": "Sword",
+  "quest": 0
+ },
+ "w_h_taca": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_tambourine": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_tasak": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_training": {
+  "base": 53,
+  "name": "Sword",
+  "quest": 0
+ },
+ "w_h_violin": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_violin_st": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "w_h_whore": {
+  "base": 53,
+  "name": "Lutnia",
+  "quest": 0
+ },
+ "zbroja": {
+  "base": 29,
+  "name": "Mega zbroja dla wiesia",
+  "quest": 0
+ }
+}
