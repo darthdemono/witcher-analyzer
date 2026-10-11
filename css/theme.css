@@ -1,0 +1,23 @@
+/* Colour and type tokens. The Witcher's menus are dark leather and old brass: near-black plates,
+   hairline rules, one warm gold accent for what you are looking at. */
+:root {
+  --bg: #0a0908;
+  --sel: color-mix(in srgb, var(--accent) 38%, #140c04);
+  --sel-edge: color-mix(in srgb, var(--accent) 60%, #1c1005);
+  --sel-ink: #f6e3c0;
+  --panel: url(../graphics/noise.svg) repeat, #11100e;
+  --panel-2: url(../graphics/noise.svg) repeat, #15130f;
+  --ink: #c9c1b3;
+  --ink-dim: #8c8577;
+  --val: #f0e9db;
+  --rule: rgba(255, 255, 255, 0.08);
+  --rule-soft: rgba(255, 255, 255, 0.045);
+  --box: #2a2419;
+  --box-in: rgba(255, 255, 255, 0.055);
+  --accent: #c9a25b;
+  --accent-2: #7a5d2c;
+  --danger: #b4503f;
+  --ok: #7a9a55;
+  --font-ui: "Roboto", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --radius: 3px;
+}
