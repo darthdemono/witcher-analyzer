@@ -10,9 +10,13 @@ const order = (a, b) => a.mtime - b.mtime || slotKey(a) - slotKey(b) || cmp(a.fi
 const byName = (f) => (f.endsWith(SUFFIX) ? f.slice(0, -SUFFIX.length) : f);
 
 function progress(m) {
+  // Everything here only ever grows in a straight playthrough. A quest that goes active to completed keeps its "began" entry.
+  // Abilities are left out on purpose: potion effects are abilities too, and they come and go.
   const h = m.hero, s = new Set();
-  for (const x of m.quests.list) if (x.state !== "not started") s.add(`${x.state}:${x.id}`);
-  for (const a of h.abilities) s.add("ability:" + a.name + a.stack);
+  for (const x of m.quests.list) {
+    if (x.state !== "not started") s.add(`began:${x.id}`);
+    if (x.state === "completed" || x.state === "failed") s.add(`${x.state}:${x.id}`);
+  }
   for (const b of h.books) s.add("book:" + b);
   for (const r of h.recipes) s.add("recipe:" + r.template);
   for (const i of h.identified) s.add("seen:" + i);
@@ -75,7 +79,7 @@ export function combined(entries) {
     `_Reconstructed from ${n(snaps.length)} saves. A date is the file time of the FIRST save in which something appears: an upper bound on when it happened, never a lower one. The saves carry no play-time clock, so the order comes from each file's modified time, then its slot number._`, "",
     `_Span: ${when(snaps[0].mtime)} to ${when(newest.mtime)} UTC. Newest save: ${newest.file}._`, "", "---", "",
     `# Part 1: Current State (${when(newest.mtime)} UTC, slot ${newest.meta.slot})`, "", md(newest, newest.file, "##").split("\n").slice(2).join("\n"), "", "---", "", "# Part 2: Timeline", "",
-    "## Branches", "", "_Saves in time order look like one line, but loading an older save and playing on forks the run. A save's parent is the latest earlier one whose progress (quests, abilities, recipes, books) it still contains._", ""];
+    "## Branches", "", "_Saves in time order look like one line, but loading an older save and playing on forks the run. A save's parent is the latest earlier one whose progress (quests, recipes, books, identified substances) it still contains._", ""];
   const [nodes, edges] = branches(snaps);
   L.push("```mermaid", "flowchart TD");
   nodes.forEach((ch, i) => {
