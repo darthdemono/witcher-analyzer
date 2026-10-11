@@ -35,9 +35,13 @@ def collect(paths, db):
 
 
 def progress(m):
+    """Everything here only ever grows in a straight playthrough, so a later save contains an earlier one. A quest that goes
+    active to completed keeps its 'began' entry; storing the state itself would make every such step look like a fork.
+    Abilities are left out on purpose: potion effects are abilities too, and they come and go."""
     h, q = m["hero"], m["quests"]["list"]
-    return ({f"{x['state']}:{x['id']}" for x in q if x["state"] != "not started"} | {"ability:" + a["name"] + str(a["stack"]) for a in h["abilities"]}
-            | {"book:" + b for b in h["books"]} | {"recipe:" + r["template"] for r in h["recipes"]} | {"seen:" + s for s in h["identified"]})
+    out = {f"began:{x['id']}" for x in q if x["state"] != "not started"}
+    out |= {f"{x['state']}:{x['id']}" for x in q if x["state"] in ("completed", "failed")}
+    return out | {"book:" + b for b in h["books"]} | {"recipe:" + r["template"] for r in h["recipes"]} | {"seen:" + s for s in h["identified"]}
 
 
 def signature(m):
@@ -103,7 +107,7 @@ def combined(paths, db):
          f"_Reconstructed from {n(len(snaps))} saves. A date is the file time of the FIRST save in which something appears: an upper bound on when it happened, never a lower one. The saves carry no play-time clock, so the order comes from each file's modified time, then its slot number._", "",
          f"_Span: {when(snaps[0]['mtime'])} to {when(newest['mtime'])} UTC. Newest save: {newest['file']}._", "", "---", "",
          f"# Part 1: Current State ({when(newest['mtime'])} UTC, slot {newest['meta']['slot']})", "", md(newest, newest["file"], "##").split("\n", 2)[2], "", "---", "", "# Part 2: Timeline", "",
-         "## Branches", "", "_Saves in time order look like one line, but loading an older save and playing on forks the run. A save's parent is the latest earlier one whose progress (quests, abilities, recipes, books) it still contains._", ""]
+         "## Branches", "", "_Saves in time order look like one line, but loading an older save and playing on forks the run. A save's parent is the latest earlier one whose progress (quests, recipes, books, identified substances) it still contains._", ""]
     nodes, edges = branches(snaps)
     L += ["```mermaid", "flowchart TD"]
     for i, ch in enumerate(nodes):
