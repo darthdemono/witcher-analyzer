@@ -1,0 +1,701 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/darthdemono/witcher-analyzer/schema.json",
+ "title": "witcher-analyzer save export",
+ "description": "One summary per Witcher 1 save. Python (witcher/tw1.py) and JavaScript (app/tw1.js) produce identical documents, held together by tools/parity.mjs.",
+ "type": "object",
+ "required": [
+  "meta",
+  "integrity",
+  "hero",
+  "quests",
+  "story",
+  "variables",
+  "world"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "meta": {
+   "type": "object",
+   "required": [
+    "saveName",
+    "slot",
+    "area",
+    "title",
+    "files",
+    "modules",
+    "bytes",
+    "difficulty",
+    "startingModule",
+    "note"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "saveName": {
+     "type": "string"
+    },
+    "slot": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "area": {
+     "type": "string"
+    },
+    "title": {
+     "type": "string"
+    },
+    "files": {
+     "type": "integer"
+    },
+    "modules": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "bytes": {
+     "type": "integer"
+    },
+    "difficulty": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "startingModule": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "note": {
+     "type": "string"
+    }
+   }
+  },
+  "integrity": {
+   "type": "object",
+   "required": [
+    "files",
+    "gffResources",
+    "undecodedBytes",
+    "unreferencedBytes"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "files": {
+     "type": "integer"
+    },
+    "gffResources": {
+     "type": "integer"
+    },
+    "undecodedBytes": {
+     "type": "integer"
+    },
+    "unreferencedBytes": {
+     "type": "integer"
+    }
+   },
+   "description": "undecodedBytes is bytes of the file no reader claimed (zero on a clean read). unreferencedBytes is leftover table space inside quest files that nothing points at."
+  },
+  "hero": {
+   "type": "object",
+   "required": [
+    "name",
+    "level",
+    "experience",
+    "gold",
+    "hitPoints",
+    "endurance",
+    "toxicity",
+    "toxicityCap",
+    "talentPoints",
+    "advancementPoints",
+    "position",
+    "areaTag",
+    "signs",
+    "activeSign",
+    "abilities",
+    "styles",
+    "books",
+    "identified",
+    "recipes",
+    "kills",
+    "inventory",
+    "equipment",
+    "reputationEntries",
+    "trackedQuest",
+    "trackedPhase"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "level": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "experience": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "gold": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "hitPoints": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "endurance": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "toxicity": {
+     "type": "number"
+    },
+    "toxicityCap": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "talentPoints": {
+     "type": "object",
+     "required": [
+      "bronze",
+      "silver",
+      "gold",
+      "questBronze",
+      "questSilver",
+      "questGold"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "bronze": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "silver": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "gold": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "questBronze": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "questSilver": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "questGold": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      }
+     }
+    },
+    "advancementPoints": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "position": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     },
+     "minItems": 3,
+     "maxItems": 3
+    },
+    "areaTag": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "signs": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "integer"
+     }
+    },
+    "activeSign": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "abilities": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "name",
+       "stack"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "stack": {
+        "type": "integer"
+       }
+      }
+     }
+    },
+    "styles": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "id",
+       "weapon",
+       "attacks"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "weapon": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "attacks": {
+        "type": "integer"
+       }
+      }
+     }
+    },
+    "books": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "identified": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "recipes": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "name",
+       "template",
+       "base",
+       "ingredients"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "template": {
+        "type": "string"
+       },
+       "base": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "ingredients": {
+        "type": "object",
+        "additionalProperties": {
+         "type": "integer"
+        }
+       }
+      }
+     }
+    },
+    "kills": {
+     "type": "object",
+     "required": [
+      "total",
+      "byKind"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "total": {
+       "type": "integer"
+      },
+      "byKind": {
+       "type": "object",
+       "description": "kind -> count",
+       "additionalProperties": {
+        "type": "integer"
+       }
+      }
+     }
+    },
+    "inventory": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "name",
+       "template",
+       "kind",
+       "market",
+       "count",
+       "quest"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "template": {
+        "type": "string"
+       },
+       "kind": {
+        "type": "string"
+       },
+       "market": {
+        "type": "string"
+       },
+       "count": {
+        "type": "integer"
+       },
+       "quest": {
+        "type": "boolean"
+       }
+      }
+     }
+    },
+    "equipment": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "name",
+       "template",
+       "kind",
+       "market",
+       "count",
+       "quest",
+       "slot"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "template": {
+        "type": "string"
+       },
+       "kind": {
+        "type": "string"
+       },
+       "market": {
+        "type": "string"
+       },
+       "count": {
+        "type": "integer"
+       },
+       "quest": {
+        "type": "boolean"
+       },
+       "slot": {
+        "type": [
+         "integer",
+         "null"
+        ]
+       }
+      }
+     }
+    },
+    "reputationEntries": {
+     "type": "integer"
+    },
+    "trackedQuest": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "trackedPhase": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "quests": {
+   "type": "object",
+   "required": [
+    "total",
+    "states",
+    "byAct",
+    "list",
+    "journalEntries",
+    "journalRead",
+    "unreadQuests"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "total": {
+     "type": "integer"
+    },
+    "states": {
+     "type": "object",
+     "description": "state -> count",
+     "additionalProperties": {
+      "type": "integer"
+     }
+    },
+    "byAct": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "description": "state -> count",
+      "additionalProperties": {
+       "type": "integer"
+      }
+     }
+    },
+    "list": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "id",
+       "act",
+       "title",
+       "state",
+       "primary",
+       "phases",
+       "phasesDone",
+       "phase",
+       "hint"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "id": {
+        "type": "string"
+       },
+       "act": {
+        "type": "string"
+       },
+       "title": {
+        "type": "string"
+       },
+       "state": {
+        "enum": [
+         "failed",
+         "completed",
+         "active",
+         "not started"
+        ]
+       },
+       "primary": {
+        "type": "boolean"
+       },
+       "phases": {
+        "type": "integer"
+       },
+       "phasesDone": {
+        "type": "integer"
+       },
+       "phase": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "hint": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      }
+     }
+    },
+    "journalEntries": {
+     "type": "integer"
+    },
+    "journalRead": {
+     "type": "integer"
+    },
+    "unreadQuests": {
+     "type": "array",
+     "items": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "story": {
+   "type": "object",
+   "required": [
+    "phases",
+    "npcs",
+    "dialogFlags",
+    "modulesVisited",
+    "mapRegions",
+    "stores"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "phases": {
+     "type": "integer"
+    },
+    "npcs": {
+     "type": "integer"
+    },
+    "dialogFlags": {
+     "type": "integer"
+    },
+    "modulesVisited": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "mapRegions": {
+     "type": "integer"
+    },
+    "stores": {
+     "type": "integer"
+    }
+   }
+  },
+  "variables": {
+   "type": "object",
+   "required": [
+    "total",
+    "questFlags",
+    "monologues",
+    "cutscenes"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "total": {
+     "type": "integer"
+    },
+    "questFlags": {
+     "type": "object",
+     "additionalProperties": true
+    },
+    "monologues": {
+     "type": "integer"
+    },
+    "cutscenes": {
+     "type": "integer"
+    }
+   }
+  },
+  "world": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "module",
+     "scripts",
+     "areas"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "module": {
+      "type": "string"
+     },
+     "scripts": {
+      "type": "integer"
+     },
+     "areas": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "resref",
+        "name",
+        "creatures",
+        "placeables",
+        "doors",
+        "waypoints",
+        "monsters",
+        "monstersKilled",
+        "containerItems"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "resref": {
+         "type": "string"
+        },
+        "name": {
+         "type": "string"
+        },
+        "creatures": {
+         "type": "integer"
+        },
+        "placeables": {
+         "type": "integer"
+        },
+        "doors": {
+         "type": "integer"
+        },
+        "waypoints": {
+         "type": "integer"
+        },
+        "monsters": {
+         "type": "integer"
+        },
+        "monstersKilled": {
+         "type": "integer"
+        },
+        "containerItems": {
+         "type": "integer"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
