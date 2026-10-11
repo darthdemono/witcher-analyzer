@@ -1,0 +1,362 @@
+{
+ "0": {
+  "label": "Aard_Sign_0",
+  "level": 0,
+  "sign": "Aard",
+  "variant": 0
+ },
+ "1": {
+  "label": "Aard_Sign_0p",
+  "level": 0,
+  "sign": "Aard",
+  "variant": 1
+ },
+ "10": {
+  "label": "Quen_Sign_0",
+  "level": 0,
+  "sign": "Quen",
+  "variant": 0
+ },
+ "11": {
+  "label": "Quen_Sign_0p",
+  "level": 0,
+  "sign": "Quen",
+  "variant": 1
+ },
+ "12": {
+  "label": "Quen_Sign_1",
+  "level": 1,
+  "sign": "Quen",
+  "variant": 0
+ },
+ "13": {
+  "label": "Quen_Sign_1p",
+  "level": 1,
+  "sign": "Quen",
+  "variant": 1
+ },
+ "14": {
+  "label": "Quen_Sign_2",
+  "level": 2,
+  "sign": "Quen",
+  "variant": 0
+ },
+ "15": {
+  "label": "Quen_Sign_2p",
+  "level": 2,
+  "sign": "Quen",
+  "variant": 1
+ },
+ "16": {
+  "label": "Quen_Sign_3",
+  "level": 3,
+  "sign": "Quen",
+  "variant": 0
+ },
+ "17": {
+  "label": "Quen_Sign_3p",
+  "level": 3,
+  "sign": "Quen",
+  "variant": 1
+ },
+ "18": {
+  "label": "Quen_Sign_4",
+  "level": 4,
+  "sign": "Quen",
+  "variant": 0
+ },
+ "19": {
+  "label": "Quen_Sign_4p",
+  "level": 4,
+  "sign": "Quen",
+  "variant": 1
+ },
+ "2": {
+  "label": "Aard_Sign_1",
+  "level": 1,
+  "sign": "Aard",
+  "variant": 0
+ },
+ "20": {
+  "label": "Yrden_Sign_0",
+  "level": 0,
+  "sign": "Yrden",
+  "variant": 0
+ },
+ "21": {
+  "label": "Yrden_Sign_0p",
+  "level": 0,
+  "sign": "Yrden",
+  "variant": 1
+ },
+ "22": {
+  "label": "Yrden_Sign_1",
+  "level": 1,
+  "sign": "Yrden",
+  "variant": 0
+ },
+ "23": {
+  "label": "Yrden_Sign_1p",
+  "level": 1,
+  "sign": "Yrden",
+  "variant": 1
+ },
+ "24": {
+  "label": "Yrden_Sign_2",
+  "level": 2,
+  "sign": "Yrden",
+  "variant": 0
+ },
+ "25": {
+  "label": "Yrden_Sign_2p",
+  "level": 2,
+  "sign": "Yrden",
+  "variant": 1
+ },
+ "26": {
+  "label": "Yrden_Sign_3",
+  "level": 3,
+  "sign": "Yrden",
+  "variant": 0
+ },
+ "27": {
+  "label": "Yrden_Sign_3p",
+  "level": 3,
+  "sign": "Yrden",
+  "variant": 1
+ },
+ "28": {
+  "label": "Yrden_Sign_4",
+  "level": 4,
+  "sign": "Yrden",
+  "variant": 0
+ },
+ "29": {
+  "label": "Yrden_Sign_4p",
+  "level": 4,
+  "sign": "Yrden",
+  "variant": 1
+ },
+ "3": {
+  "label": "Aard_Sign_1p",
+  "level": 1,
+  "sign": "Aard",
+  "variant": 1
+ },
+ "30": {
+  "label": "Igni_Sign_0",
+  "level": 0,
+  "sign": "Igni",
+  "variant": 0
+ },
+ "31": {
+  "label": "Igni_Sign_0p",
+  "level": 0,
+  "sign": "Igni",
+  "variant": 1
+ },
+ "32": {
+  "label": "Igni_Sign_1",
+  "level": 1,
+  "sign": "Igni",
+  "variant": 0
+ },
+ "33": {
+  "label": "Igni_Sign_1p",
+  "level": 1,
+  "sign": "Igni",
+  "variant": 1
+ },
+ "34": {
+  "label": "Igni_Sign_2",
+  "level": 2,
+  "sign": "Igni",
+  "variant": 0
+ },
+ "35": {
+  "label": "Igni_Sign_2p",
+  "level": 2,
+  "sign": "Igni",
+  "variant": 1
+ },
+ "36": {
+  "label": "Igni_Sign_3",
+  "level": 3,
+  "sign": "Igni",
+  "variant": 0
+ },
+ "37": {
+  "label": "Igni_Sign_3p",
+  "level": 3,
+  "sign": "Igni",
+  "variant": 1
+ },
+ "38": {
+  "label": "Igni_Sign_4",
+  "level": 4,
+  "sign": "Igni",
+  "variant": 0
+ },
+ "39": {
+  "label": "Igni_Sign_4p",
+  "level": 4,
+  "sign": "Igni",
+  "variant": 1
+ },
+ "4": {
+  "label": "Aard_Sign_2",
+  "level": 2,
+  "sign": "Aard",
+  "variant": 0
+ },
+ "40": {
+  "label": "Axi_Sign_0",
+  "level": 0,
+  "sign": "Axi",
+  "variant": 0
+ },
+ "41": {
+  "label": "Axi_Sign_0p",
+  "level": 0,
+  "sign": "Axi",
+  "variant": 1
+ },
+ "42": {
+  "label": "Axi_Sign_1",
+  "level": 1,
+  "sign": "Axi",
+  "variant": 0
+ },
+ "43": {
+  "label": "Axi_Sign_1p",
+  "level": 1,
+  "sign": "Axi",
+  "variant": 1
+ },
+ "44": {
+  "label": "Axi_Sign_2",
+  "level": 2,
+  "sign": "Axi",
+  "variant": 0
+ },
+ "45": {
+  "label": "Axi_Sign_2p",
+  "level": 2,
+  "sign": "Axi",
+  "variant": 1
+ },
+ "46": {
+  "label": "Axi_Sign_3",
+  "level": 3,
+  "sign": "Axi",
+  "variant": 0
+ },
+ "47": {
+  "label": "Axi_Sign_3p",
+  "level": 3,
+  "sign": "Axi",
+  "variant": 1
+ },
+ "48": {
+  "label": "Axi_Sign_4",
+  "level": 4,
+  "sign": "Axi",
+  "variant": 0
+ },
+ "49": {
+  "label": "Axi_Sign_4p",
+  "level": 4,
+  "sign": "Axi",
+  "variant": 1
+ },
+ "5": {
+  "label": "Aard_Sign_2p",
+  "level": 2,
+  "sign": "Aard",
+  "variant": 1
+ },
+ "50": {
+  "label": "Heal_Sign_0",
+  "level": 0,
+  "sign": "Heal",
+  "variant": 0
+ },
+ "51": {
+  "label": "Heal_Sign_0p",
+  "level": 0,
+  "sign": "Heal",
+  "variant": 1
+ },
+ "52": {
+  "label": "Heal_Sign_1",
+  "level": 1,
+  "sign": "Heal",
+  "variant": 0
+ },
+ "53": {
+  "label": "Heal_Sign_1p",
+  "level": 1,
+  "sign": "Heal",
+  "variant": 1
+ },
+ "54": {
+  "label": "Heal_Sign_2",
+  "level": 2,
+  "sign": "Heal",
+  "variant": 0
+ },
+ "55": {
+  "label": "Heal_Sign_2p",
+  "level": 2,
+  "sign": "Heal",
+  "variant": 1
+ },
+ "56": {
+  "label": "Heal_Sign_3",
+  "level": 3,
+  "sign": "Heal",
+  "variant": 0
+ },
+ "57": {
+  "label": "Heal_Sign_3p",
+  "level": 3,
+  "sign": "Heal",
+  "variant": 1
+ },
+ "58": {
+  "label": "Heal_Sign_4",
+  "level": 4,
+  "sign": "Heal",
+  "variant": 0
+ },
+ "59": {
+  "label": "Heal_Sign_4p",
+  "level": 4,
+  "sign": "Heal",
+  "variant": 1
+ },
+ "6": {
+  "label": "Aard_Sign_3",
+  "level": 3,
+  "sign": "Aard",
+  "variant": 0
+ },
+ "7": {
+  "label": "Aard_Sign_3p",
+  "level": 3,
+  "sign": "Aard",
+  "variant": 1
+ },
+ "8": {
+  "label": "Aard_Sign_4",
+  "level": 4,
+  "sign": "Aard",
+  "variant": 0
+ },
+ "9": {
+  "label": "Aard_Sign_4p",
+  "level": 4,
+  "sign": "Aard",
+  "variant": 1
+ }
+}
