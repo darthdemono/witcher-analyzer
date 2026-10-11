@@ -1,0 +1,11 @@
+{
+  "name": "Witcher Analyzer: save viewer",
+  "short_name": "Witcher Analyzer",
+  "description": "Read a Witcher 1 save in your browser. Nothing is uploaded.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0908",
+  "theme_color": "#0a0908",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
